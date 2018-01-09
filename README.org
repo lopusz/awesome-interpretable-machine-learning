@@ -1,3 +1,48 @@
 * Awesome Model Interpretability [[https://awesome.re][https://awesome.re/badge.svg]]
 
-Test
+** Interpretable models
+   + Simple decision trees
+   + Rules
+   + (Regularized) linear regression
+
+** Models offering feature ranking
+   + Random Forest
+   + Boosted Trees
+   + Linear regression (with a grain of salt)
+
+** Good old feature selection
+
+** Model explanations
+   + The Mythos of Model Interpretability
+     + https://arxiv.org/pdf/1606.03490.pdf
+     + https://www.youtube.com/watch?v=mvzBQci04qA
+
+   + LIME (Local Interpretable Model-agnostic Explanations)
+     + https://arxiv.org/pdf/1602.04938.pdf
+     + https://github.com/marcotcr/lime
+     + https://github.com/marcotcr/lime-experiments
+     + https://www.youtube.com/watch?v=bCgEP2zuYxI
+
+   + SHAP (SHapley Additive exPlanations)
+     + https://arxiv.org/pdf/1705.07874.pdf
+     + https://github.com/slundberg/shap
+
+   + Model explanation system by Ryan Turner
+     + http://www.blackboxworkshop.org/pdf/Turner2015_MES.pdf
+     + https://arxiv.org/pdf/1606.09517.pdf
+
+** Model visualization
+   + What are partial dependence plots?
+     + http://scikit-learn.org/stable/auto_examples/ensemble/plot_partial_dependence.html
+
+** Unordered
+ + Interactive and Interpretable Machine Learning Models for Human Machine Collaboration, B. Kim (PhD thesis)
+   + http://people.csail.mit.edu/beenkim/papers/BKimPhDThesis.pdf
+
+ + Stripe Talk
+   + https://www.youtube.com/watch?v=DiWkKqZChF0
+   + https://speakerdeck.com/sritchie/just-so-stories-for-ai-explaining-black-box-predictions
+
+** Venues
+   + Interpretable ML Symposium (NIPS 2017)
+     http://interpretable.ml/
