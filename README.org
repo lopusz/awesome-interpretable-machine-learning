@@ -42,47 +42,46 @@ Opinionated list of resources facilitating model interpretability
       + https://arxiv.org/pdf/1606.09517.pdf
 
     + Understanding Black-box Predictions via Influence Functions
-
-      https://arxiv.org/pdf/1703.04730.pdf
+      + https://arxiv.org/pdf/1703.04730.pdf
 
 *** Model specific explanations - neural networks
     + Visualizing and Understanding Convolutional Networks
-      https://arxiv.org/pdf/1311.2901.pdf
+      + https://arxiv.org/pdf/1311.2901.pdf
 
     + Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps
-      https://arxiv.org/pdf/1312.6034.pdf
+      + https://arxiv.org/pdf/1312.6034.pdf
 
     + Understanding Neural Networks Through Deep Visualization
-      https://arxiv.org/pdf/1506.06579.pdf
-      https://github.com/yosinski/deep-visualization-toolbox
+      + https://arxiv.org/pdf/1506.06579.pdf
+      + https://github.com/yosinski/deep-visualization-toolbox
 
     + Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization
-      https://arxiv.org/abs/1610.02391
+      + https://arxiv.org/abs/1610.02391
 
     + Generating Visual Explanations
-      https://arxiv.org/pdf/1603.08507.pdf
+      + https://arxiv.org/pdf/1603.08507.pdf
 
     + Rationalizng neural network predictions
-      https://arxiv.org/pdf/1606.04155.pdf
-      https://github.com/taolei87/rcnn/tree/master/code/rationale
-      https://people.csail.mit.edu/taolei/papers/emnlp16_rationale_slides.pdf
+      + https://arxiv.org/pdf/1606.04155.pdf
+      + https://github.com/taolei87/rcnn/tree/master/code/rationale
+      + https://people.csail.mit.edu/taolei/papers/emnlp16_rationale_slides.pdf
 
     + Pixel entropy can be used to detect relevant picture regions (for CovNets)
-      See Visualization section and Fig. 5 of the paper
+      + See Visualization section and Fig. 5 of the paper
 
-      High-Resolution Breast Cancer Screening with Multi-View Deep Convolutional Neural Networks
-      https://arxiv.org/pdf/1703.07047.pdf
+        High-Resolution Breast Cancer Screening with Multi-View Deep Convolutional Neural Networks
+        https://arxiv.org/pdf/1703.07047.pdf
 
     + SVCCA: Singular Vector Canonical Correlation Analysis for Deep Learning Dynamics and Interpretability
-      https://arxiv.org/abs/1706.05806
-      https://research.googleblog.com/2017/11/interpreting-deep-neural-networks-with.html
+      + https://arxiv.org/abs/1706.05806
+      + https://research.googleblog.com/2017/11/interpreting-deep-neural-networks-with.html
 ** Extracting interpretable models from complex ones
 
    + Extracting Automata from Recurrent Neural Networks Using Queries and Counterexamples
-     https://arxiv.org/pdf/1711.09576.pdf
+     + https://arxiv.org/pdf/1711.09576.pdf
 
    + Distilling a Neural Network Into a Soft Decision Tree
-     https://arxiv.org/pdf/1711.09784.pdf
+     + https://arxiv.org/pdf/1711.09784.pdf
 
 ** Model visualization
    + Visualizing statistical models: Removing the blindfold
@@ -93,8 +92,8 @@ Opinionated list of resources facilitating model interpretability
        https://journal.r-project.org/archive/2017/RJ-2017-016/RJ-2017-016.pdf
        https://cran.r-project.org/web/packages/pdp/index.html
    + ggfortify: Unified Interface to Visualize Statistical Results of Popular R Packages
-     https://journal.r-project.org/archive/2016-2/tang-horikoshi-li.pdf
-
+     + https://journal.r-project.org/archive/2016-2/tang-horikoshi-li.pdf
+     + https://cran.r-project.org/web/packages/ggfortify/index.html
 ** Waiting list
   + Interactive and Interpretable Machine Learning Models for Human Machine Collaboration, B. Kim (PhD thesis)
    http://people.csail.mit.edu/beenkim/papers/BKimPhDThesis.pdf
@@ -106,7 +105,7 @@ Opinionated list of resources facilitating model interpretability
 
 ** Venues
    + Interpretable ML Symposium (NIPS 2017)
-     http://interpretable.ml/
+     + http://interpretable.ml/
 
 ** Software
    Software related to papers is mentioned along with each publication.
@@ -114,4 +113,5 @@ Opinionated list of resources facilitating model interpretability
 
    + ELI5 - Python package dedicated to debugging machine learning classifiers
      and explaining their predictions.
-     https://github.com/TeamHG-Memex/eli5
+     + https://github.com/TeamHG-Memex/eli5
+     + https://eli5.readthedocs.io/en/latest/
