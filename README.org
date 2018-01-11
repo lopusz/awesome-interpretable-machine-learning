@@ -1,8 +1,14 @@
 * Awesome Model Interpretability [[https://awesome.re][https://awesome.re/badge.svg]]
 
+Opinionated list of resources facilitating model interpretability
+(introspection, simplification, visualization, explanation).
+
 ** Interpretable models
    + Simple decision trees
    + Rules
+     + Interpretable classifiers using rules and Bayesian analysis: Building a better stroke prediction model
+
+       https://arxiv.org/pdf/1511.01644.pdf
    + (Regularized) linear regression
 
 ** Models offering feature ranking
@@ -11,38 +17,101 @@
    + Linear regression (with a grain of salt)
 
 ** Good old feature selection
+   + Filters
+   + Wrappers
+   + Embedded methods
 
 ** Model explanations
-   + The Mythos of Model Interpretability
-     + https://arxiv.org/pdf/1606.03490.pdf
-     + https://www.youtube.com/watch?v=mvzBQci04qA
+*** Model agnostic explanations
+    + The Mythos of Model Interpretability
+      + https://arxiv.org/pdf/1606.03490.pdf
+      + https://www.youtube.com/watch?v=mvzBQci04qA
 
-   + LIME (Local Interpretable Model-agnostic Explanations)
-     + https://arxiv.org/pdf/1602.04938.pdf
-     + https://github.com/marcotcr/lime
-     + https://github.com/marcotcr/lime-experiments
-     + https://www.youtube.com/watch?v=bCgEP2zuYxI
+    + LIME (Local Interpretable Model-agnostic Explanations)
+      + https://arxiv.org/pdf/1602.04938.pdf
+      + https://github.com/marcotcr/lime
+      + https://github.com/marcotcr/lime-experiments
+      + https://www.youtube.com/watch?v=bCgEP2zuYxI
 
-   + SHAP (SHapley Additive exPlanations)
-     + https://arxiv.org/pdf/1705.07874.pdf
-     + https://github.com/slundberg/shap
+    + SHAP (SHapley Additive exPlanations), generalizing LIME
+      + https://arxiv.org/pdf/1705.07874.pdf
+      + https://github.com/slundberg/shap
 
-   + Model explanation system by Ryan Turner
-     + http://www.blackboxworkshop.org/pdf/Turner2015_MES.pdf
-     + https://arxiv.org/pdf/1606.09517.pdf
+    + Model explanation system by Ryan Turner
+      + http://www.blackboxworkshop.org/pdf/Turner2015_MES.pdf
+      + https://arxiv.org/pdf/1606.09517.pdf
+
+    + Understanding Black-box Predictions via Influence Functions
+
+      https://arxiv.org/pdf/1703.04730.pdf
+
+*** Model specific explanations - neural networks
+    + Visualizing and Understanding Convolutional Networks
+      https://arxiv.org/pdf/1311.2901.pdf
+
+    + Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps
+      https://arxiv.org/pdf/1312.6034.pdf
+
+    + Understanding Neural Networks Through Deep Visualization
+      https://arxiv.org/pdf/1506.06579.pdf
+      https://github.com/yosinski/deep-visualization-toolbox
+
+    + Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization
+      https://arxiv.org/abs/1610.02391
+
+    + Generating Visual Explanations
+      https://arxiv.org/pdf/1603.08507.pdf
+
+    + Rationalizng neural network predictions
+      https://arxiv.org/pdf/1606.04155.pdf
+      https://github.com/taolei87/rcnn/tree/master/code/rationale
+      https://people.csail.mit.edu/taolei/papers/emnlp16_rationale_slides.pdf
+
+    + Pixel entropy can be used to detect relevant picture regions (for CovNets)
+      See Visualization section and Fig. 5 of the paper
+
+      High-Resolution Breast Cancer Screening with Multi-View Deep Convolutional Neural Networks
+      https://arxiv.org/pdf/1703.07047.pdf
+
+    + SVCCA: Singular Vector Canonical Correlation Analysis for Deep Learning Dynamics and Interpretability
+      https://arxiv.org/abs/1706.05806
+      https://research.googleblog.com/2017/11/interpreting-deep-neural-networks-with.html
+** Extracting interpretable models from complex ones
+
+   + Extracting Automata from Recurrent Neural Networks Using Queries and Counterexamples
+     https://arxiv.org/pdf/1711.09576.pdf
+
+   + Distilling a Neural Network Into a Soft Decision Tree
+     https://arxiv.org/pdf/1711.09784.pdf
 
 ** Model visualization
-   + What are partial dependence plots?
+   + Visualizing statistical models: Removing the blindfold
+     + http://had.co.nz/stat645/model-vis.pdf
+   + Partial dependence plots
      + http://scikit-learn.org/stable/auto_examples/ensemble/plot_partial_dependence.html
+     + pdp: An R Package for Constructing Partial Dependence Plots
+       https://journal.r-project.org/archive/2017/RJ-2017-016/RJ-2017-016.pdf
+       https://cran.r-project.org/web/packages/pdp/index.html
+   + ggfortify: Unified Interface to Visualize Statistical Results of Popular R Packages
+     https://journal.r-project.org/archive/2016-2/tang-horikoshi-li.pdf
 
-** Unordered
- + Interactive and Interpretable Machine Learning Models for Human Machine Collaboration, B. Kim (PhD thesis)
-   + http://people.csail.mit.edu/beenkim/papers/BKimPhDThesis.pdf
-
- + Stripe Talk
-   + https://www.youtube.com/watch?v=DiWkKqZChF0
-   + https://speakerdeck.com/sritchie/just-so-stories-for-ai-explaining-black-box-predictions
+** Waiting list
+  + Interactive and Interpretable Machine Learning Models for Human Machine Collaboration, B. Kim (PhD thesis)
+   http://people.csail.mit.edu/beenkim/papers/BKimPhDThesis.pdf
+  + Biecek, Show Me Your Model tools for visualisation of statistical models
+    https://channel9.msdn.com/Events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/Show-Me-Your-Model-tools-for-visualisation-of-statistical-models
+  + Stripe Talk
+    + https://www.youtube.com/watch?v=DiWkKqZChF0
+    + https://speakerdeck.com/sritchie/just-so-stories-for-ai-explaining-black-box-predictions
 
 ** Venues
    + Interpretable ML Symposium (NIPS 2017)
      http://interpretable.ml/
+
+** Software
+   Software related to papers is mentioned along with each publication.
+   Here only standalone software is included.
+
+   + ELI5 - Python package dedicated to debugging machine learning classifiers
+     and explaining their predictions.
+     https://github.com/TeamHG-Memex/eli5
