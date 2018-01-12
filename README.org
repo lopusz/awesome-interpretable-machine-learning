@@ -70,6 +70,7 @@ Opinionated list of resources facilitating model interpretability
       + See Visualization section and Fig. 5 of the paper
 
         High-Resolution Breast Cancer Screening with Multi-View Deep Convolutional Neural Networks
+
         https://arxiv.org/pdf/1703.07047.pdf
 
     + SVCCA: Singular Vector Canonical Correlation Analysis for Deep Learning Dynamics and Interpretability
@@ -115,3 +116,5 @@ Opinionated list of resources facilitating model interpretability
      and explaining their predictions.
      + https://github.com/TeamHG-Memex/eli5
      + https://eli5.readthedocs.io/en/latest/
+   + lime - R package implementing LIME
+     + https://github.com/thomasp85/lime
