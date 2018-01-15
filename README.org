@@ -94,16 +94,26 @@ Opinionated list of resources facilitating model interpretability
        https://cran.r-project.org/web/packages/pdp/index.html
    + ggfortify: Unified Interface to Visualize Statistical Results of Popular R Packages
      + https://journal.r-project.org/archive/2016-2/tang-horikoshi-li.pdf
-     + https://cran.r-project.org/web/packages/ggfortify/index.html
-** Waiting list
-  + Interactive and Interpretable Machine Learning Models for Human Machine Collaboration, B. Kim (PhD thesis)
-   http://people.csail.mit.edu/beenkim/papers/BKimPhDThesis.pdf
-  + Biecek, Show Me Your Model tools for visualisation of statistical models
-    https://channel9.msdn.com/Events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/Show-Me-Your-Model-tools-for-visualisation-of-statistical-models
-  + Stripe Talk
-    + https://www.youtube.com/watch?v=DiWkKqZChF0
-    + https://speakerdeck.com/sritchie/just-so-stories-for-ai-explaining-black-box-predictions
-
+     + CRAN https://cran.r-project.org/web/packages/ggfortify/index.html
+   + RandomForestExplainer
+     + Master thesis https://rawgit.com/geneticsMiNIng/BlackBoxOpener/master/randomForestExplainer_Master_thesis.pdf
+     + R code
+       + CRAN https://cran.r-project.org/web/packages/randomForestExplainer/index.html
+       + GitHub https://github.com/MI2DataLab/randomForestExplainer
+   + ggRandomForest
+     + Paper (vignette) https://github.com/ehrlinger/ggRandomForests/raw/master/vignettes/randomForestSRC-Survival.pdf
+     + R code
+       + CRAN https://cran.r-project.org/web/packages/ggRandomForests/index.html
+       + GitHub https://github.com/ehrlinger/ggRandomForests
+** Selected review talks
+  + P. Biecek, Show Me Your Model tools for visualisation of statistical models
+    + Video: https://channel9.msdn.com/Events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/Show-Me-Your-Model-tools-for-visualisation-of-statistical-models
+  + S. Ritchie, Just-So Stories of AI
+    + Video: https://www.youtube.com/watch?v=DiWkKqZChF0
+    + Slides: https://speakerdeck.com/sritchie/just-so-stories-for-ai-explaining-black-box-predictions
+  + C. Jarmul, Towards Interpretable Accountable Models
+    + Video: https://www.youtube.com/watch?v=B3PtcF-6Dtc
+    + Slides: https://docs.google.com/presentation/d/e/2PACX-1vR05kpagAbL5qo1QThxwu44TI5SQAws_UFVg3nUAmKp39uNG0xdBjcMA-VyEeqZRGGQtt0CS5h2DMTS/embed?start=false&loop=false&delayms=3000
 ** Venues
    + Interpretable ML Symposium (NIPS 2017)
      + http://interpretable.ml/
@@ -118,3 +128,6 @@ Opinionated list of resources facilitating model interpretability
      + https://eli5.readthedocs.io/en/latest/
    + lime - R package implementing LIME
      + https://github.com/thomasp85/lime
+   + forestmodel - R package visualizing coefficients of different models with the so called forest plot
+     + CRAN https://cran.r-project.org/web/packages/forestmodel/index.html
+     + GitHub https://github.com/NikNakk/forestmodel
