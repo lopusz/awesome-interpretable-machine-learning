@@ -114,6 +114,10 @@ Opinionated list of resources facilitating model interpretability
   + C. Jarmul, Towards Interpretable Accountable Models
     + Video: https://www.youtube.com/watch?v=B3PtcF-6Dtc
     + Slides: https://docs.google.com/presentation/d/e/2PACX-1vR05kpagAbL5qo1QThxwu44TI5SQAws_UFVg3nUAmKp39uNG0xdBjcMA-VyEeqZRGGQtt0CS5h2DMTS/embed?start=false&loop=false&delayms=3000
+  + I. Oszvald, Machine learning libraries you'd wish you'd known about
+    + A large part of the talk covers model explanation and visualization
+    + Video: https://www.youtube.com/watch?v=nDF7_8FOhpI
+    + Associated notebook on explaining regression predictions: https://github.com/ianozsvald/data_science_delivered/blob/master/ml_explain_regression_prediction.ipynb
 ** Venues
    + Interpretable ML Symposium (NIPS 2017)
      + http://interpretable.ml/
