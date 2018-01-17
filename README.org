@@ -6,8 +6,7 @@ Opinionated list of resources facilitating model interpretability
 ** Interpretable models
    + Simple decision trees
    + Rules
-     + Interpretable classifiers using rules and Bayesian analysis: Building a better stroke prediction model
-
+     + Interpretable Classifiers Using Rules and Bayesian Analysis: Building a Better Stroke Prediction Model
        https://arxiv.org/pdf/1511.01644.pdf
    + (Regularized) linear regression
 
@@ -37,7 +36,7 @@ Opinionated list of resources facilitating model interpretability
       + https://arxiv.org/pdf/1705.07874.pdf
       + https://github.com/slundberg/shap
 
-    + Model explanation system by Ryan Turner
+    + Model Explanation System by Ryan Turner
       + http://www.blackboxworkshop.org/pdf/Turner2015_MES.pdf
       + https://arxiv.org/pdf/1606.09517.pdf
 
@@ -85,7 +84,7 @@ Opinionated list of resources facilitating model interpretability
      + https://arxiv.org/pdf/1711.09784.pdf
 
 ** Model visualization
-   + Visualizing statistical models: Removing the blindfold
+   + Visualizing Statistical Models: Removing the blindfold
      + http://had.co.nz/stat645/model-vis.pdf
    + Partial dependence plots
      + http://scikit-learn.org/stable/auto_examples/ensemble/plot_partial_dependence.html
@@ -114,7 +113,7 @@ Opinionated list of resources facilitating model interpretability
   + C. Jarmul, Towards Interpretable Accountable Models
     + Video: https://www.youtube.com/watch?v=B3PtcF-6Dtc
     + Slides: https://docs.google.com/presentation/d/e/2PACX-1vR05kpagAbL5qo1QThxwu44TI5SQAws_UFVg3nUAmKp39uNG0xdBjcMA-VyEeqZRGGQtt0CS5h2DMTS/embed?start=false&loop=false&delayms=3000
-  + I. Oszvald, Machine learning libraries you'd wish you'd known about
+  + I. Oszvald, Machine Learning Libraries You'd Wish You'd Known About
     + A large part of the talk covers model explanation and visualization
     + Video: https://www.youtube.com/watch?v=nDF7_8FOhpI
     + Associated notebook on explaining regression predictions: https://github.com/ianozsvald/data_science_delivered/blob/master/ml_explain_regression_prediction.ipynb
