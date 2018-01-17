@@ -123,10 +123,10 @@ Opinionated list of resources facilitating model interpretability
    Here only standalone software is included.
 
    + ELI5 - Python package dedicated to debugging machine learning classifiers
-     and explaining their predictions.
+     and explaining their predictions
      + https://github.com/TeamHG-Memex/eli5
      + https://eli5.readthedocs.io/en/latest/
-   + yellowbrick - visual analysis and diagnostic tools to facilitate machine learning model selection.
+   + yellowbrick - visual analysis and diagnostic tools to facilitate machine learning model selection
      + https://github.com/DistrictDataLabs/yellowbrick
      + http://www.scikit-yb.org/en/latest/
    + lime - R package implementing LIME
