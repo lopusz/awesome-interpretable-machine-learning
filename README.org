@@ -21,11 +21,19 @@ Opinionated list of resources facilitating model interpretability
    + Embedded methods
 
 ** Model explanations
-*** Model agnostic explanations
+*** Philosophy
+    + Magnets by R. P. Feynman
+      https://www.youtube.com/watch?v=wMFPe-DwULM
+
     + The Mythos of Model Interpretability
       + https://arxiv.org/pdf/1606.03490.pdf
       + https://www.youtube.com/watch?v=mvzBQci04qA
 
+    + The Promise and Peril of Human Evaluation for Model Interpretability
+      + https://arxiv.org/pdf/1711.07414.pdf
+
+
+*** Model agnostic explanations
     + LIME (Local Interpretable Model-agnostic Explanations)
       + https://arxiv.org/pdf/1602.04938.pdf
       + https://github.com/marcotcr/lime
@@ -75,6 +83,10 @@ Opinionated list of resources facilitating model interpretability
     + SVCCA: Singular Vector Canonical Correlation Analysis for Deep Learning Dynamics and Interpretability
       + https://arxiv.org/abs/1706.05806
       + https://research.googleblog.com/2017/11/interpreting-deep-neural-networks-with.html
+
+    + Visual Explanation by Interpretation: Improving Visual Feedback Capabilities of Deep Neural Networks
+      + https://arxiv.org/pdf/1712.06302.pdf
+
 ** Extracting interpretable models from complex ones
 
    + Extracting Automata from Recurrent Neural Networks Using Queries and Counterexamples
@@ -104,6 +116,7 @@ Opinionated list of resources facilitating model interpretability
      + R code
        + CRAN https://cran.r-project.org/web/packages/ggRandomForests/index.html
        + GitHub https://github.com/ehrlinger/ggRandomForests
+
 ** Selected review talks
   + P. Biecek, Show Me Your Model tools for visualisation of statistical models
     + Video: https://channel9.msdn.com/Events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/Show-Me-Your-Model-tools-for-visualisation-of-statistical-models
@@ -117,9 +130,12 @@ Opinionated list of resources facilitating model interpretability
     + A large part of the talk covers model explanation and visualization
     + Video: https://www.youtube.com/watch?v=nDF7_8FOhpI
     + Associated notebook on explaining regression predictions: https://github.com/ianozsvald/data_science_delivered/blob/master/ml_explain_regression_prediction.ipynb
+
 ** Venues
-   + Interpretable ML Symposium (NIPS 2017)
+   + Interpretable ML Symposium (NIPS 2017) (contains links to *papers*, *slides* and *videos*)
      + http://interpretable.ml/
+     + Debate, Interpretability is necessary in machine learning
+       + https://www.youtube.com/watch?v=2hW05ZfsUUo
 
 ** Software
    Software related to papers is mentioned along with each publication.
