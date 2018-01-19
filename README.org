@@ -68,7 +68,7 @@ Opinionated list of resources facilitating model interpretability
     + Generating Visual Explanations
       + https://arxiv.org/pdf/1603.08507.pdf
 
-    + Rationalizng neural network predictions
+    + Rationalizng Neural Network Predictions
       + https://arxiv.org/pdf/1606.04155.pdf
       + https://github.com/taolei87/rcnn/tree/master/code/rationale
       + https://people.csail.mit.edu/taolei/papers/emnlp16_rationale_slides.pdf
