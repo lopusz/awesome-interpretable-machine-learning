@@ -87,6 +87,28 @@ Opinionated list of resources facilitating model interpretability
     + Visual Explanation by Interpretation: Improving Visual Feedback Capabilities of Deep Neural Networks
       + https://arxiv.org/pdf/1712.06302.pdf
 
+    + Axiomatic Attribution for Deep Networks
+
+      Proposes Integrated Gradients Method
+
+      https://arxiv.org/pdf/1703.01365
+
+      Code: https://github.com/ankurtaly/Integrated-Gradients
+
+      See also: Gradients of Counterfactuals
+
+      https://arxiv.org/pdf/1611.02639.pdf
+
+    + Learning Important Features Through Propagating Activation Differences
+
+      Proposes Deep Lift method
+
+      https://arxiv.org/pdf/1704.02685.pdf
+
+      Code: https://github.com/kundajelab/deeplift
+
+      Videos: https://www.youtube.com/playlist?list=PLJLjQOkqSRTP3cLB2cOOi_bQFw6KPGKML
+
 ** Extracting interpretable models from complex ones
 
    + Extracting Automata from Recurrent Neural Networks Using Queries and Counterexamples
