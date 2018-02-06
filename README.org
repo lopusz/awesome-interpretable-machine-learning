@@ -1,4 +1,4 @@
-* Awesome Model Interpretability [[https://awesome.re][https://awesome.re/badge.svg]]
+* Awesome Interpretable Machine Learning [[https://awesome.re][https://awesome.re/badge.svg]]
 
 Opinionated list of resources facilitating model interpretability
 (introspection, simplification, visualization, explanation).
