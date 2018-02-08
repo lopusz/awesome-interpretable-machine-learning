@@ -3,24 +3,24 @@
 Opinionated list of resources facilitating model interpretability
 (introspection, simplification, visualization, explanation).
 
-** Interpretable models
+** Interpretable Models
    + Simple decision trees
    + Rules
      + Interpretable Classifiers Using Rules and Bayesian Analysis: Building a Better Stroke Prediction Model
        https://arxiv.org/pdf/1511.01644.pdf
    + (Regularized) linear regression
 
-** Models offering feature ranking
+** Models Offering Feature Ranking
    + Random Forest
    + Boosted Trees
    + Linear regression (with a grain of salt)
 
-** Good old feature selection
+** Good Old Feature Selection
    + Filters
    + Wrappers
    + Embedded methods
 
-** Model explanations
+** Model Explanations
 *** Philosophy
     + Magnets by R. P. Feynman
       https://www.youtube.com/watch?v=wMFPe-DwULM
@@ -33,7 +33,7 @@ Opinionated list of resources facilitating model interpretability
       + https://arxiv.org/pdf/1711.07414.pdf
 
 
-*** Model agnostic explanations
+*** Model Agnostic Explanations
     + LIME (Local Interpretable Model-agnostic Explanations)
       + https://arxiv.org/pdf/1602.04938.pdf
       + https://github.com/marcotcr/lime
@@ -51,7 +51,7 @@ Opinionated list of resources facilitating model interpretability
     + Understanding Black-box Predictions via Influence Functions
       + https://arxiv.org/pdf/1703.04730.pdf
 
-*** Model specific explanations - neural networks
+*** Model Specific Explanations - Neural Networks
     + Visualizing and Understanding Convolutional Networks
       + https://arxiv.org/pdf/1311.2901.pdf
 
@@ -107,7 +107,7 @@ Opinionated list of resources facilitating model interpretability
 
       + Videos: https://www.youtube.com/playlist?list=PLJLjQOkqSRTP3cLB2cOOi_bQFw6KPGKML
 
-** Extracting interpretable models from complex ones
+** Extracting Interpretable Models From Complex Ones
 
    + Extracting Automata from Recurrent Neural Networks Using Queries and Counterexamples
      + https://arxiv.org/pdf/1711.09576.pdf
@@ -115,7 +115,7 @@ Opinionated list of resources facilitating model interpretability
    + Distilling a Neural Network Into a Soft Decision Tree
      + https://arxiv.org/pdf/1711.09784.pdf
 
-** Model visualization
+** Model Visualization
    + Visualizing Statistical Models: Removing the blindfold
      + http://had.co.nz/stat645/model-vis.pdf
    + Partial dependence plots
@@ -137,7 +137,7 @@ Opinionated list of resources facilitating model interpretability
        + CRAN https://cran.r-project.org/web/packages/ggRandomForests/index.html
        + GitHub https://github.com/ehrlinger/ggRandomForests
 
-** Selected review talks
+** Selected Review Talks
   + P. Biecek, Show Me Your Model tools for visualisation of statistical models
     + Video: https://channel9.msdn.com/Events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/Show-Me-Your-Model-tools-for-visualisation-of-statistical-models
   + S. Ritchie, Just-So Stories of AI
