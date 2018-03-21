@@ -116,6 +116,12 @@ Opinionated list of resources facilitating model interpretability
   + The (Un)reliability of saliency methods
      + Review of failures for methods extracting most important pixels for prediction
      + https://arxiv.org/pdf/1711.00867.pdf
+
+  + The Building Blocks of Interpretability
+    + https://distill.pub/2018/building-blocks
+    + Has some embeded links to notebooks
+    + Uses Lucid library https://github.com/tensorflow/lucid
+
 ** Extracting Interpretable Models From Complex Ones
 
    + Extracting Automata from Recurrent Neural Networks Using Queries and Counterexamples
@@ -187,3 +193,5 @@ Opinionated list of resources facilitating model interpretability
    + DALEX - Descriptive mAchine Learning EXplanations
      + CRAN https://cran.r-project.org/web/packages/DALEX/DALEX.pdf
      + GitHub https://github.com/pbiecek/DALEX
+   + Lucid - a collection of infrastructure and tools for research in neural network interpretability
+     + https://github.com/tensorflow/lucid
