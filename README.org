@@ -53,6 +53,9 @@ Opinionated list of resources facilitating model interpretability
     + Understanding Black-box Predictions via Influence Functions
       + https://arxiv.org/pdf/1703.04730.pdf
 
+    + Classifier-agnostic Saliency Map Extraction
+      + https://arxiv.org/pdf/1805.08249.pdf
+
     + A review book -  Interpretable Machine Learning. A Guide for Making Black Box
       Models Explainable by Christoph Molnar
 
