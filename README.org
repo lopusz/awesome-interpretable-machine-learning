@@ -19,6 +19,16 @@ Opinionated list of resources facilitating model interpretability
    + Filters
    + Wrappers
    + Embedded methods
+   + Varia
+     + Model Class Reliance: Variable Importance Measures for any Machine Learning Model Class, from the "Rashomon" Perspective Class, from the "Rashomon" Perspective
+        + Universal (model agnostic) Variable Importance Measures
+        + https://arxiv.org/pdf/1801.01489
+        + https://github.com/aaronjfisher/mcr
+     + Feature Engineering and Selection by Kuhn & Johnson
+       + Sligtly off-topic, but very interesting books
+       + http://www.feat.engineering/index.html
+       + https://bookdown.org/max/FES/
+       + https://github.com/topepo/FES
 
 ** Model Explanations
 *** Philosophy
@@ -38,13 +48,24 @@ Opinionated list of resources facilitating model interpretability
 *** Model Agnostic Explanations
     + LIME (Local Interpretable Model-agnostic Explanations)
       + https://arxiv.org/pdf/1602.04938.pdf
-      + https://github.com/marcotcr/lime
+      + Code: https://github.com/marcotcr/lime
       + https://github.com/marcotcr/lime-experiments
       + https://www.youtube.com/watch?v=bCgEP2zuYxI
 
     + SHAP (SHapley Additive exPlanations), generalizing LIME
       + https://arxiv.org/pdf/1705.07874.pdf
-      + https://github.com/slundberg/shap
+      + Code: https://github.com/slundberg/shap
+
+    + Anchors: High-Precision Model-Agnostic Explanations, another improvement over LIME
+      + https://homes.cs.washington.edu/~marcotcr/aaai18.pdf
+      + Code: https://github.com/marcotcr/anchor-experiments
+
+    + Explanations of Model Predictions with live and breakDown Package
+      + https://arxiv.org/pdf/1804.01955.pdf
+      + Docs: https://mi2datalab.github.io/live/
+      + Code: https://github.com/MI2DataLab/live
+      + Docs: https://pbiecek.github.io/breakDown
+      + Code: https://github.com/pbiecek/breakDown
 
     + Model Explanation System by Ryan Turner
       + http://www.blackboxworkshop.org/pdf/Turner2015_MES.pdf
@@ -52,9 +73,6 @@ Opinionated list of resources facilitating model interpretability
 
     + Understanding Black-box Predictions via Influence Functions
       + https://arxiv.org/pdf/1703.04730.pdf
-
-    + Classifier-agnostic Saliency Map Extraction
-      + https://arxiv.org/pdf/1805.08249.pdf
 
     + A review book -  Interpretable Machine Learning. A Guide for Making Black Box
       Models Explainable by Christoph Molnar
@@ -79,8 +97,8 @@ Opinionated list of resources facilitating model interpretability
 
     + Rationalizng Neural Network Predictions
       + https://arxiv.org/pdf/1606.04155.pdf
-      + https://github.com/taolei87/rcnn/tree/master/code/rationale
       + https://people.csail.mit.edu/taolei/papers/emnlp16_rationale_slides.pdf
+      + Code: https://github.com/taolei87/rcnn/tree/master/code/rationale
 
     + Pixel entropy can be used to detect relevant picture regions (for CovNets)
       + See Visualization section and Fig. 5 of the paper
@@ -90,7 +108,7 @@ Opinionated list of resources facilitating model interpretability
         https://arxiv.org/pdf/1703.07047.pdf
 
     + SVCCA: Singular Vector Canonical Correlation Analysis for Deep Learning Dynamics and Interpretability
-      + https://arxiv.org/abs/1706.05806
+      + https://arxiv.org/pdf/1706.05806.pdf
       + https://research.googleblog.com/2017/11/interpreting-deep-neural-networks-with.html
 
     + Visual Explanation by Interpretation: Improving Visual Feedback Capabilities of Deep Neural Networks
@@ -116,14 +134,17 @@ Opinionated list of resources facilitating model interpretability
 
       + Videos: https://www.youtube.com/playlist?list=PLJLjQOkqSRTP3cLB2cOOi_bQFw6KPGKML
 
-  + The (Un)reliability of saliency methods
-     + Review of failures for methods extracting most important pixels for prediction
-     + https://arxiv.org/pdf/1711.00867.pdf
+    + The (Un)reliability of saliency methods
+      + Review of failures for methods extracting most important pixels for prediction
+      + https://arxiv.org/pdf/1711.00867.pdf
 
-  + The Building Blocks of Interpretability
-    + https://distill.pub/2018/building-blocks
-    + Has some embeded links to notebooks
-    + Uses Lucid library https://github.com/tensorflow/lucid
+    + Classifier-agnostic Saliency Map Extraction
+      + https://arxiv.org/pdf/1805.08249.pdf
+
+    + The Building Blocks of Interpretability
+      + https://distill.pub/2018/building-blocks
+      + Has some embeded links to notebooks
+      + Uses Lucid library https://github.com/tensorflow/lucid
 
 ** Extracting Interpretable Models From Complex Ones
 
@@ -148,12 +169,12 @@ Opinionated list of resources facilitating model interpretability
      + Master thesis https://rawgit.com/geneticsMiNIng/BlackBoxOpener/master/randomForestExplainer_Master_thesis.pdf
      + R code
        + CRAN https://cran.r-project.org/web/packages/randomForestExplainer/index.html
-       + GitHub https://github.com/MI2DataLab/randomForestExplainer
+       + Code: https://github.com/MI2DataLab/randomForestExplainer
    + ggRandomForest
      + Paper (vignette) https://github.com/ehrlinger/ggRandomForests/raw/master/vignettes/randomForestSRC-Survival.pdf
      + R code
        + CRAN https://cran.r-project.org/web/packages/ggRandomForests/index.html
-       + GitHub https://github.com/ehrlinger/ggRandomForests
+       + Code: https://github.com/ehrlinger/ggRandomForests
 
 ** Selected Review Talks
   + Tutorial on Interpretable machine learning at ICML 2017
@@ -183,18 +204,18 @@ Opinionated list of resources facilitating model interpretability
 
    + ELI5 - Python package dedicated to debugging machine learning classifiers
      and explaining their predictions
-     + https://github.com/TeamHG-Memex/eli5
+     + Code: https://github.com/TeamHG-Memex/eli5
      + https://eli5.readthedocs.io/en/latest/
    + yellowbrick - visual analysis and diagnostic tools to facilitate machine learning model selection
-     + https://github.com/DistrictDataLabs/yellowbrick
+     + Code: https://github.com/DistrictDataLabs/yellowbrick
      + http://www.scikit-yb.org/en/latest/
    + lime - R package implementing LIME
      + https://github.com/thomasp85/lime
    + forestmodel - R package visualizing coefficients of different models with the so called forest plot
      + CRAN https://cran.r-project.org/web/packages/forestmodel/index.html
-     + GitHub https://github.com/NikNakk/forestmodel
+     + Code: https://github.com/NikNakk/forestmodel
    + DALEX - Descriptive mAchine Learning EXplanations
      + CRAN https://cran.r-project.org/web/packages/DALEX/DALEX.pdf
-     + GitHub https://github.com/pbiecek/DALEX
+     + Code: https://github.com/pbiecek/DALEX
    + Lucid - a collection of infrastructure and tools for research in neural network interpretability
-     + https://github.com/tensorflow/lucid
+     + Code: https://github.com/tensorflow/lucid
