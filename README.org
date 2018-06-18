@@ -20,12 +20,12 @@ Opinionated list of resources facilitating model interpretability
    + Wrappers
    + Embedded methods
    + Varia
-     + Model Class Reliance: Variable Importance Measures for any Machine Learning Model Class, from the "Rashomon" Perspective Class, from the "Rashomon" Perspective
+     + Model Class Reliance: Variable Importance Measures for any Machine Learning Model Class, from the "Rashomon" Perspective
         + Universal (model agnostic) Variable Importance Measures
         + https://arxiv.org/pdf/1801.01489
         + https://github.com/aaronjfisher/mcr
      + Feature Engineering and Selection by Kuhn & Johnson
-       + Sligtly off-topic, but very interesting books
+       + Sligtly off-topic, but very interesting book
        + http://www.feat.engineering/index.html
        + https://bookdown.org/max/FES/
        + https://github.com/topepo/FES
