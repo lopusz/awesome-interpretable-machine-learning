@@ -201,6 +201,8 @@ Opinionated list of resources facilitating model interpretability
      + http://interpretable.ml/
      + Debate, Interpretability is necessary in machine learning
        + https://www.youtube.com/watch?v=2hW05ZfsUUo
+   + 2017 Workshop on Human Interpretability in Machine Learning (WHI) (in conjunction with ICML 2017) (contains links to *papers* and *slides*)
+     + https://sites.google.com/view/whi2017/home
 
 ** Software
    Software related to papers is mentioned along with each publication.
