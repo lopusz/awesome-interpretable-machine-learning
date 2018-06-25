@@ -4,31 +4,55 @@ Opinionated list of resources facilitating model interpretability
 (introspection, simplification, visualization, explanation).
 
 ** Interpretable Models
-   + Simple decision trees
-   + Rules
-     + Interpretable Classifiers Using Rules and Bayesian Analysis: Building a Better Stroke Prediction Model
-       https://arxiv.org/pdf/1511.01644.pdf
-   + (Regularized) linear regression
+   + Interpretable models
+     + Simple decision trees
+     + Rules
+     + (Regularized) linear regression
+     + k-NN
 
-** Models Offering Feature Ranking
-   + Random Forest
-   + Boosted Trees
-   + Linear regression (with a grain of salt)
+   + Interpretable Classifiers Using Rules and Bayesian Analysis: Building a Better Stroke Prediction Model
+     https://arxiv.org/pdf/1511.01644.pdf
 
-** Good Old Feature Selection
-   + Filters
-   + Wrappers
-   + Embedded methods
-   + Varia
-     + Model Class Reliance: Variable Importance Measures for any Machine Learning Model Class, from the "Rashomon" Perspective
-        + Universal (model agnostic) Variable Importance Measures
-        + https://arxiv.org/pdf/1801.01489
-        + https://github.com/aaronjfisher/mcr
-     + Feature Engineering and Selection by Kuhn & Johnson
-       + Sligtly off-topic, but very interesting book
-       + http://www.feat.engineering/index.html
-       + https://bookdown.org/max/FES/
-       + https://github.com/topepo/FES
+   + Comprehensible Classification Models – a position paper by Alex A. Freitas
+     + Interesting discussion of interpretability for a few  classification  models
+       (decision trees, classification rules, decision tables, nearest neighbors  and  Bayesian  network  classifier)
+     + http://www.kdd.org/exploration_files/V15-01-01-Freitas.pdf
+
+** Feature Importance
+   + Models offering feature importance measures
+     + Random forest
+     + Boosted trees
+     + Extremely randomized trees https://doi.org/10.1007/s10994-006-6226-1
+     + Linear regression (with a grain of salt)
+
+   + Model Class Reliance: Variable Importance Measures for any Machine Learning Model Class, from the "Rashomon" Perspective
+     + Universal (model agnostic) variable importance measure
+     + https://arxiv.org/pdf/1801.01489
+     + https://github.com/aaronjfisher/mcr
+
+   + Bias in random forest variable importance measures: Illustrations, sources and a solution
+     https://doi.org/10.1186/1471-2105-8-25
+
+   + Conditional variable importance for random forests
+     https://doi.org/10.1186/1471-2105-9-307
+
+   + Very good blog post describing deficiencies of random forest feature importance and the permutation importance
+     + http://explained.ai/rf-importance/index.html
+
+   + Permutation importance - simple model agnostic approach is described in Eli5 documentation
+     + https://eli5.readthedocs.io/en/latest/blackbox/permutation_importance.html
+
+** Feature Selection
+   + Classification of feature selection methods
+     + Filters
+     + Wrappers
+     + Embedded methods
+
+   + Feature Engineering and Selection by Kuhn & Johnson
+     + Sligtly off-topic, but very interesting book
+     + http://www.feat.engineering/index.html
+     + https://bookdown.org/max/FES/
+     + https://github.com/topepo/FES
 
 ** Model Explanations
 *** Philosophy
@@ -94,7 +118,7 @@ Opinionated list of resources facilitating model interpretability
       + https://github.com/yosinski/deep-visualization-toolbox
 
     + Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization
-      + https://arxiv.org/abs/1610.02391
+      + https://arxiv.org/pdf/1610.02391
 
     + Generating Visual Explanations
       + https://arxiv.org/pdf/1603.08507.pdf
@@ -144,6 +168,7 @@ Opinionated list of resources facilitating model interpretability
 
     + Classifier-agnostic Saliency Map Extraction
       + https://arxiv.org/pdf/1805.08249.pdf
+      + Code: https://github.com/kondiz/casme
 
     + The Building Blocks of Interpretability
       + https://distill.pub/2018/building-blocks
@@ -161,40 +186,51 @@ Opinionated list of resources facilitating model interpretability
 ** Model Visualization
    + Visualizing Statistical Models: Removing the blindfold
      + http://had.co.nz/stat645/model-vis.pdf
+
    + Partial dependence plots
      + http://scikit-learn.org/stable/auto_examples/ensemble/plot_partial_dependence.html
      + pdp: An R Package for Constructing Partial Dependence Plots
        https://journal.r-project.org/archive/2017/RJ-2017-016/RJ-2017-016.pdf
        https://cran.r-project.org/web/packages/pdp/index.html
+
    + ggfortify: Unified Interface to Visualize Statistical Results of Popular R Packages
      + https://journal.r-project.org/archive/2016-2/tang-horikoshi-li.pdf
      + CRAN https://cran.r-project.org/web/packages/ggfortify/index.html
+
    + RandomForestExplainer
      + Master thesis https://rawgit.com/geneticsMiNIng/BlackBoxOpener/master/randomForestExplainer_Master_thesis.pdf
      + R code
        + CRAN https://cran.r-project.org/web/packages/randomForestExplainer/index.html
        + Code: https://github.com/MI2DataLab/randomForestExplainer
+
    + ggRandomForest
      + Paper (vignette) https://github.com/ehrlinger/ggRandomForests/raw/master/vignettes/randomForestSRC-Survival.pdf
      + R code
        + CRAN https://cran.r-project.org/web/packages/ggRandomForests/index.html
        + Code: https://github.com/ehrlinger/ggRandomForests
 
-** Selected Review Talks
-  + Tutorial on Interpretable machine learning at ICML 2017
-    + Slides: http://people.csail.mit.edu/beenkim/papers/BeenK_FinaleDV_ICML2017_tutorial.pdf
-  + P. Biecek, Show Me Your Model tools for visualisation of statistical models
-    + Video: https://channel9.msdn.com/Events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/Show-Me-Your-Model-tools-for-visualisation-of-statistical-models
-  + S. Ritchie, Just-So Stories of AI
-    + Video: https://www.youtube.com/watch?v=DiWkKqZChF0
-    + Slides: https://speakerdeck.com/sritchie/just-so-stories-for-ai-explaining-black-box-predictions
-  + C. Jarmul, Towards Interpretable Accountable Models
-    + Video: https://www.youtube.com/watch?v=B3PtcF-6Dtc
-    + Slides: https://docs.google.com/presentation/d/e/2PACX-1vR05kpagAbL5qo1QThxwu44TI5SQAws_UFVg3nUAmKp39uNG0xdBjcMA-VyEeqZRGGQtt0CS5h2DMTS/embed?start=false&loop=false&delayms=3000
-  + I. Oszvald, Machine Learning Libraries You'd Wish You'd Known About
-    + A large part of the talk covers model explanation and visualization
-    + Video: https://www.youtube.com/watch?v=nDF7_8FOhpI
-    + Associated notebook on explaining regression predictions: https://github.com/ianozsvald/data_science_delivered/blob/master/ml_explain_regression_prediction.ipynb
+** Selected Review Talks and Tutorials
+   + Tutorial on Interpretable machine learning at ICML 2017
+     + Slides: http://people.csail.mit.edu/beenkim/papers/BeenK_FinaleDV_ICML2017_tutorial.pdf
+
+   + P. Biecek, Show Me Your Model tools for visualisation of statistical models
+     + Video: https://channel9.msdn.com/Events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/Show-Me-Your-Model-tools-for-visualisation-of-statistical-models
+
+   + S. Ritchie, Just-So Stories of AI
+     + Video: https://www.youtube.com/watch?v=DiWkKqZChF0
+     + Slides: https://speakerdeck.com/sritchie/just-so-stories-for-ai-explaining-black-box-predictions
+
+   + C. Jarmul, Towards Interpretable Accountable Models
+     + Video: https://www.youtube.com/watch?v=B3PtcF-6Dtc
+     + Slides: https://docs.google.com/presentation/d/e/2PACX-1vR05kpagAbL5qo1QThxwu44TI5SQAws_UFVg3nUAmKp39uNG0xdBjcMA-VyEeqZRGGQtt0CS5h2DMTS/embed?start=false&loop=false&delayms=3000
+
+   + I. Oszvald, Machine Learning Libraries You'd Wish You'd Known About
+     + A large part of the talk covers model explanation and visualization
+     + Video: https://www.youtube.com/watch?v=nDF7_8FOhpI
+     + Associated notebook on explaining regression predictions: https://github.com/ianozsvald/data_science_delivered/blob/master/ml_explain_regression_prediction.ipynb
+
+   + G. Varoquaux, Understanding and diagnosing your machine-learning models (covers PDP and Lime among others)
+     + http://gael-varoquaux.info/interpreting_ml_tuto/
 
 ** Venues
    + Interpretable ML Symposium (NIPS 2017) (contains links to *papers*, *slides* and *videos*)
@@ -212,16 +248,20 @@ Opinionated list of resources facilitating model interpretability
      and explaining their predictions
      + Code: https://github.com/TeamHG-Memex/eli5
      + https://eli5.readthedocs.io/en/latest/
+
    + yellowbrick - visual analysis and diagnostic tools to facilitate machine learning model selection
      + Code: https://github.com/DistrictDataLabs/yellowbrick
      + http://www.scikit-yb.org/en/latest/
    + lime - R package implementing LIME
      + https://github.com/thomasp85/lime
+
    + forestmodel - R package visualizing coefficients of different models with the so called forest plot
      + CRAN https://cran.r-project.org/web/packages/forestmodel/index.html
      + Code: https://github.com/NikNakk/forestmodel
+
    + DALEX - Descriptive mAchine Learning EXplanations
      + CRAN https://cran.r-project.org/web/packages/DALEX/DALEX.pdf
      + Code: https://github.com/pbiecek/DALEX
+
    + Lucid - a collection of infrastructure and tools for research in neural network interpretability
      + Code: https://github.com/tensorflow/lucid
