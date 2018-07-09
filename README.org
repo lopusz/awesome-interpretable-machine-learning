@@ -69,7 +69,7 @@ Opinionated list of resources facilitating model interpretability
     + Towards Rigorous Science of Model Interpretability
       https://arxiv.org/pdf/1702.08608
 
-    + The Book of Why: The New Science of Cause and Effect by Judea Pearl
+    + [[http://bayes.cs.ucla.edu/WHY/why-intro.pdf][The Book of Why: The New Science of Cause and Effect]] by Judea Pearl
 
     + Looking Inside the Black Box, presentation of Leo Breiman
       + https://www.stat.berkeley.edu/users/breiman/wald2002-2.pdf
