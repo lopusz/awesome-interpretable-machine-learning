@@ -182,6 +182,9 @@ Opinionated list of resources facilitating model interpretability
 
    + Distilling a Neural Network Into a Soft Decision Tree
      + https://arxiv.org/pdf/1711.09784.pdf
+     
+   + Learning to Explain: An Information-Theoretic Perspective on Model Interpretation
+     + https://arxiv.org/pdf/1802.07814.pdf    
 
 ** Model Visualization
    + Visualizing Statistical Models: Removing the blindfold
