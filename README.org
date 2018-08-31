@@ -53,6 +53,10 @@ Opinionated list of resources facilitating model interpretability
      + Wrappers
      + Embedded methods
 
+   + Irrelevant features and the subset selection problem
+     + Classical paper discussing weakly relevant features, irrelevant features, strongly relevant features
+     + https://pdfs.semanticscholar.org/a83b/ddb34618cc68f1014ca12eef7f537825d104.pdf
+
    + Special issue of JMLR of feature selection - oldish (2003), but still very interesting
      + http://www.jmlr.org/papers/special/feature03.html
 
