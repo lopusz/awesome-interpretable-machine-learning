@@ -11,7 +11,7 @@ Opinionated list of resources facilitating model interpretability
      + k-NN
 
    + Interpretable Classifiers Using Rules and Bayesian Analysis: Building a Better Stroke Prediction Model
-     https://arxiv.org/pdf/1511.01644.pdf
+     + https://arxiv.org/pdf/1511.01644.pdf
 
    + Comprehensible Classification Models – a position paper by Alex A. Freitas
      + Interesting discussion of interpretability for a few  classification  models
@@ -36,10 +36,10 @@ Opinionated list of resources facilitating model interpretability
      + https://github.com/aaronjfisher/mcr
 
    + Bias in random forest variable importance measures: Illustrations, sources and a solution
-     https://doi.org/10.1186/1471-2105-8-25
+     + https://doi.org/10.1186/1471-2105-8-25
 
    + Conditional variable importance for random forests
-     https://doi.org/10.1186/1471-2105-9-307
+     + https://doi.org/10.1186/1471-2105-9-307
 
    + Very good blog post describing deficiencies of random forest feature importance and the permutation importance
      + http://explained.ai/rf-importance/index.html
@@ -119,6 +119,9 @@ Opinionated list of resources facilitating model interpretability
 
     + Understanding Black-box Predictions via Influence Functions
       + https://arxiv.org/pdf/1703.04730.pdf
+
+    + Learning to Explain: An Information-Theoretic Perspective on Model Interpretation
+      + https://arxiv.org/pdf/1802.07814.pdf
 
     + A review book -  Interpretable Machine Learning. A Guide for Making Black Box
       Models Explainable by Christoph Molnar
@@ -200,10 +203,6 @@ Opinionated list of resources facilitating model interpretability
 
    + Distilling a Neural Network Into a Soft Decision Tree
      + https://arxiv.org/pdf/1711.09784.pdf
-
-   + Learning to Explain: An Information-Theoretic Perspective on Model Interpretation
-     + https://arxiv.org/pdf/1802.07814.pdf
-
 ** Model Visualization
    + Visualizing Statistical Models: Removing the blindfold
      + http://had.co.nz/stat645/model-vis.pdf
