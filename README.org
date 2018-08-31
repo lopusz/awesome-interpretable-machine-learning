@@ -72,12 +72,16 @@ Opinionated list of resources facilitating model interpretability
       + https://arxiv.org/pdf/1711.07414.pdf
 
     + Towards Rigorous Science of Model Interpretability
-      https://arxiv.org/pdf/1702.08608
+      + https://arxiv.org/pdf/1702.08608
 
     + [[http://bayes.cs.ucla.edu/WHY/why-intro.pdf][The Book of Why: The New Science of Cause and Effect]] by Judea Pearl
 
     + Looking Inside the Black Box, presentation of Leo Breiman
       + https://www.stat.berkeley.edu/users/breiman/wald2002-2.pdf
+
+    + To explain or to predict?
+      + https://arxiv.org/pdf/1101.0891.pdf
+
 *** Model Agnostic Explanations
     + LIME (Local Interpretable Model-agnostic Explanations)
       + https://arxiv.org/pdf/1602.04938.pdf
@@ -187,9 +191,9 @@ Opinionated list of resources facilitating model interpretability
 
    + Distilling a Neural Network Into a Soft Decision Tree
      + https://arxiv.org/pdf/1711.09784.pdf
-     
+
    + Learning to Explain: An Information-Theoretic Perspective on Model Interpretation
-     + https://arxiv.org/pdf/1802.07814.pdf    
+     + https://arxiv.org/pdf/1802.07814.pdf
 
 ** Model Visualization
    + Visualizing Statistical Models: Removing the blindfold
