@@ -22,7 +22,12 @@ Opinionated list of resources facilitating model interpretability
    + Models offering feature importance measures
      + Random forest
      + Boosted trees
-     + Extremely randomized trees https://doi.org/10.1007/s10994-006-6226-1
+     + Extremely randomized trees
+       + https://doi.org/10.1007/s10994-006-6226-1
+     + Random ferns
+       + https://www.jstatsoft.org/article/view/v061i10/
+       + https://cran.r-project.org/web/packages/rFerns
+       + https://notabug.org/mbq/rFerns
      + Linear regression (with a grain of salt)
 
    + Model Class Reliance: Variable Importance Measures for any Machine Learning Model Class, from the "Rashomon" Perspective
