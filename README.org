@@ -53,6 +53,15 @@ Opinionated list of resources facilitating model interpretability
      + Wrappers
      + Embedded methods
 
+   + Special issue of JMLR of feature selection - oldish (2003), but still very interesting
+     + http://www.jmlr.org/papers/special/feature03.html
+
+   + Relief-Based Feature Selection: Introduction and Review
+     + https://arxiv.org/pdf/1711.08477.pdf
+
+   + Benchmarking Relief-Based Feature Selection Methods
+     + https://arxiv.org/pdf/1711.08421.pdf
+
    + Feature Engineering and Selection by Kuhn & Johnson
      + Sligtly off-topic, but very interesting book
      + http://www.feat.engineering/index.html
