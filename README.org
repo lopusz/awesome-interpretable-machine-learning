@@ -66,6 +66,15 @@ Opinionated list of resources facilitating model interpretability
    + Benchmarking Relief-Based Feature Selection Methods
      + https://arxiv.org/pdf/1711.08421.pdf
 
+   + Feature Selection with the Boruta Package
+     + https://www.jstatsoft.org/article/view/v036i11
+     + https://cran.r-project.org/web/packages/Boruta/
+     + Official R code: https://notabug.org/mbq/Boruta/
+     + Python port: https://notabug.org/mbq/Boruta/
+
+   + Boruta for those in a hurry
+     + https://cran.r-project.org/web/packages/Boruta/vignettes/inahurry.pdf
+
    + Feature Engineering and Selection by Kuhn & Johnson
      + Sligtly off-topic, but very interesting book
      + http://www.feat.engineering/index.html
