@@ -136,6 +136,9 @@ Opinionated list of resources facilitating model interpretability
     + Learning to Explain: An Information-Theoretic Perspective on Model Interpretation
       + https://arxiv.org/pdf/1802.07814.pdf
 
+    + Peeking Inside the Black Box: Visualizing Statistical Learning with Plots of Individual Conditional Expectation
+      + https://arxiv.org/pdf/1309.6392
+
     + A review book -  Interpretable Machine Learning. A Guide for Making Black Box
       Models Explainable by Christoph Molnar
 
