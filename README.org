@@ -53,27 +53,49 @@ Opinionated list of resources facilitating model interpretability
      + Wrappers
      + Embedded methods
 
-   + Irrelevant features and the subset selection problem
-     + Classical paper discussing weakly relevant features, irrelevant features, strongly relevant features
-     + https://pdfs.semanticscholar.org/a83b/ddb34618cc68f1014ca12eef7f537825d104.pdf
+   + Filter Methods
 
-   + Special issue of JMLR of feature selection - oldish (2003), but still very interesting
-     + http://www.jmlr.org/papers/special/feature03.html
+     + Relief-Based Feature Selection: Introduction and Review
+       + https://arxiv.org/pdf/1711.08477.pdf
 
-   + Relief-Based Feature Selection: Introduction and Review
-     + https://arxiv.org/pdf/1711.08477.pdf
+     + Benchmarking Relief-Based Feature Selection Methods
+       + https://arxiv.org/pdf/1711.08421.pdf
 
-   + Benchmarking Relief-Based Feature Selection Methods
-     + https://arxiv.org/pdf/1711.08421.pdf
+     + On the Use of Variable Complementarity for Feature Selection in Cancer Classification
+       + Introduces information theoretic methods - double input symmetrical relevance (DISR)
+       + https://pdfs.semanticscholar.org/d72f/f5063520ce4542d6d9b9e6a4f12aafab6091.pdf
 
-   + Feature Selection with the Boruta Package
-     + https://www.jstatsoft.org/article/view/v036i11
-     + https://cran.r-project.org/web/packages/Boruta/
-     + Official R code: https://notabug.org/mbq/Boruta/
-     + Python port: https://notabug.org/mbq/Boruta/
+     + Conditional Likelihood Maximisation: A Unifying Framework for Information Theoretic Feature Selection
+       + Discusses various approaches based on mutual information (MIM, mRMR, MIFS, CMIM, JMI, DISR, ICAP, CIFE, CMI)
+       + http://www.jmlr.org/papers/volume13/brown12a/brown12a.pdf
 
-   + Boruta for those in a hurry
-     + https://cran.r-project.org/web/packages/Boruta/vignettes/inahurry.pdf
+   + Wrapper methods
+
+     + Feature Selection with the Boruta Package
+       + https://www.jstatsoft.org/article/view/v036i11
+       + https://cran.r-project.org/web/packages/Boruta/
+       + Official R code: https://notabug.org/mbq/Boruta/
+       + Python port: https://notabug.org/mbq/Boruta/
+
+     + Boruta for those in a hurry
+       + https://cran.r-project.org/web/packages/Boruta/vignettes/inahurry.pdf
+
+   + General
+
+     + Special issue of JMLR of feature selection - oldish (2003)
+       + http://www.jmlr.org/papers/special/feature03.html
+
+     + NIPS 2003 feature selection challenge
+       + Paper: https://papers.nips.cc/paper/2728-result-analysis-of-the-nips-2003-feature-selection-challenge.pdf
+       + Website http://clopinet.com/isabelle/Projects/NIPS2003/
+
+     + Irrelevant features and the subset selection problem
+       + Classical paper discussing weakly relevant features, irrelevant features, strongly relevant features
+       + https://pdfs.semanticscholar.org/a83b/ddb34618cc68f1014ca12eef7f537825d104.pdf
+
+     + Consistent Feature Selection for Pattern Recognition in Polynomial Time
+       + Discusses minimal optimal vs all-relevant approaches to feature selection
+       + http://www.jmlr.org/papers/volume8/nilsson07a/nilsson07a.pdf
 
    + Feature Engineering and Selection by Kuhn & Johnson
      + Sligtly off-topic, but very interesting book
