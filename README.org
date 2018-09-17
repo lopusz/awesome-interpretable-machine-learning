@@ -301,28 +301,29 @@ Opinionated list of resources facilitating model interpretability
    Software related to papers is mentioned along with each publication.
    Here only standalone software is included.
 
+   + DALEX - Descriptive mAchine Learning EXplanations
+     + CRAN https://cran.r-project.org/web/packages/DALEX/DALEX.pdf
+     + Code: https://github.com/pbiecek/DALEX
+
    + ELI5 - Python package dedicated to debugging machine learning classifiers
      and explaining their predictions
      + Code: https://github.com/TeamHG-Memex/eli5
      + https://eli5.readthedocs.io/en/latest/
 
-   + yellowbrick - visual analysis and diagnostic tools to facilitate machine learning model selection
-     + Code: https://github.com/DistrictDataLabs/yellowbrick
-     + http://www.scikit-yb.org/en/latest/
-   + lime - R package implementing LIME
-     + https://github.com/thomasp85/lime
-
    + forestmodel - R package visualizing coefficients of different models with the so called forest plot
      + CRAN https://cran.r-project.org/web/packages/forestmodel/index.html
      + Code: https://github.com/NikNakk/forestmodel
 
-   + DALEX - Descriptive mAchine Learning EXplanations
-     + CRAN https://cran.r-project.org/web/packages/DALEX/DALEX.pdf
-     + Code: https://github.com/pbiecek/DALEX
+   + fscaret - Automated Feature Selection from 'caret'
+     + CRAN https://cran.r-project.org/web/packages/fscaret/
+     + Tutorial: https://cran.r-project.org/web/packages/fscaret/vignettes/fscaret.pdf
+
+   + lime - R package implementing LIME
+     + https://github.com/thomasp85/lime
 
    + Lucid - a collection of infrastructure and tools for research in neural network interpretability
      + Code: https://github.com/tensorflow/lucid
 
-   + fscaret - Automated Feature Selection from 'caret'
-     + CRAN https://cran.r-project.org/web/packages/fscaret/
-     + Tutorial: https://cran.r-project.org/web/packages/fscaret/vignettes/fscaret.pdf
+   + yellowbrick - visual analysis and diagnostic tools to facilitate machine learning model selection
+     + Code: https://github.com/DistrictDataLabs/yellowbrick
+     + http://www.scikit-yb.org/en/latest/
