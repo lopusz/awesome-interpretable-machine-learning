@@ -273,15 +273,30 @@ Opinionated list of resources facilitating model interpretability
      + http://interpretable.ml/
      + Debate, Interpretability is necessary in machine learning
        + https://www.youtube.com/watch?v=2hW05ZfsUUo
-   + 2018 Workshop on Human Interpretability in Machine Learning (WHI) (in conjunction with ICML 2017) (contains links to *papers* and *slides*)
-     + https://sites.google.com/view/whi2018
-     + Proceedings https://arxiv.org/html/1807.01308
-   + 2017 Workshop on Human Interpretability in Machine Learning (WHI) (in conjunction with ICML 2017) (contains links to *papers* and *slides*)
-     + https://sites.google.com/view/whi2017/home
-     + Proceedings https://arxiv.org/html/1708.02666
-   + 2016 Workshop on Human Interpretability in Machine Learning (WHI) (in conjunction with ICML 2016) (contains links to *papers*)
-     + https://sites.google.com/site/2016whi/
-     + Proceedings https://arxiv.org/html/1607.02531 or [[https://drive.google.com/open?id=0B9mGJ4F63iKGZWk0cXZraTNjRVU][here]]
+   + Workshop on Human Interpretability in Machine Learning (WHI), organisedin conjunction with ICML
+     + 2018 (contains links to *papers* and *slides*)
+       + https://sites.google.com/view/whi2018
+       + Proceedings https://arxiv.org/html/1807.01308
+     + 2017 (contains links to *papers* and *slides*)
+       + https://sites.google.com/view/whi2017/home
+       + Proceedings https://arxiv.org/html/1708.02666
+     + 2016 (contains links to *papers*)
+       + https://sites.google.com/site/2016whi/
+       + Proceedings https://arxiv.org/html/1607.02531 or [[https://drive.google.com/open?id=0B9mGJ4F63iKGZWk0cXZraTNjRVU][here]]
+   + FAT/ML Fairness, Accountability, and Transparency in Machine Learning [[https://www.fatml.org/]]
+     + 2018
+       + https://www.fatml.org/schedule/2018
+     + 2017
+       + https://www.fatml.org/schedule/2017
+     + 2016
+       + https://www.fatml.org/schedule/2016
+     + 2016
+       + https://www.fatml.org/schedule/2016
+     + 2015
+       + https://www.fatml.org/schedule/2015
+     + 2014
+       + https://www.fatml.org/schedule/2014
+
 ** Software
    Software related to papers is mentioned along with each publication.
    Here only standalone software is included.
