@@ -61,8 +61,8 @@ Opinionated list of resources facilitating model interpretability
        + Introduces information theoretic methods - double input symmetrical relevance (DISR)
 
      + { "sems_id" : "2629632a8032c02ad25021dbea82184077117d78" }
-       + Discusses various approaches based on mutual information (MIM, mRMR, MIFS, CMIM, JMI, DISR, ICAP, CIFE, CMI)
        + http://www.jmlr.org/papers/volume13/brown12a/brown12a.pdf
+       + Discusses various approaches based on mutual information (MIM, mRMR, MIFS, CMIM, JMI, DISR, ICAP, CIFE, CMI)
 
    + Wrapper methods
 
@@ -86,14 +86,12 @@ Opinionated list of resources facilitating model interpretability
        + Website http://clopinet.com/isabelle/Projects/NIPS2003/
 
      + { "sems_id" : "a93a1d9c9a1f46dc5aaadabedf906823d5043173" }
-       + Irrelevant features and the subset selection problem
-       + Classic paper discussing weakly relevant features, irrelevant features, strongly relevant features
        + https://pdfs.semanticscholar.org/a83b/ddb34618cc68f1014ca12eef7f537825d104.pdf
+       + Classic paper discussing weakly relevant features, irrelevant features, strongly relevant features
 
      + { "sems_id" : "00bc2153cd21001860e43758273945110f0ae40d" }
-       + Consistent Feature Selection for Pattern Recognition in Polynomial Time
-       + Discusses minimal optimal vs all-relevant approaches to feature selection
        + http://www.jmlr.org/papers/volume8/nilsson07a/nilsson07a.pdf
+       + Discusses minimal optimal vs all-relevant approaches to feature selection
 
    + Feature Engineering and Selection by Kuhn & Johnson
      + Sligtly off-topic, but very interesting book
@@ -124,10 +122,10 @@ Opinionated list of resources facilitating model interpretability
     + { "arxiv_id" : "1309.6392" }
 
     + { "arxiv_id" : "1602.04938" }
-      + Introduces the LIME method (Local Interpretable Model-agnostic Explanations)
       + Code: https://github.com/marcotcr/lime
       + https://github.com/marcotcr/lime-experiments
       + https://www.youtube.com/watch?v=bCgEP2zuYxI
+      + Introduces the LIME method (Local Interpretable Model-agnostic Explanations)
 
     + { "arxiv_id" : "1606.09517" }
       + http://www.blackboxworkshop.org/pdf/Turner2015_MES.pdf
@@ -135,8 +133,8 @@ Opinionated list of resources facilitating model interpretability
     + { "arxiv_id" : "1703.04730" }
 
     + { "arxiv_id" : "1705.07874" }
-      + Introduces the SHAP method (SHapley Additive exPlanations), generalizing LIME
       + Code: https://github.com/slundberg/shap
+      + Introduces the SHAP method (SHapley Additive exPlanations), generalizing LIME
 
     + { "sems_id" : "1c6690ab404b23d5026dd3ad0c7a49ce2875c1b3" }
       + https://homes.cs.washington.edu/~marcotcr/aaai18.pdf
@@ -182,12 +180,8 @@ Opinionated list of resources facilitating model interpretability
     + { "arxiv_id" : "1712.06302" }
 
     + { "arxiv_id" : "1703.01365" }
-    + Axiomatic Attribution for Deep Networks
-
-      + Proposes Integrated Gradients Method
-
       + Code: https://github.com/ankurtaly/Integrated-Gradients
-
+      + Proposes Integrated Gradients Method
       + See also: Gradients of Counterfactuals https://arxiv.org/pdf/1611.02639.pdf
 
     + { "arxiv_id" : "1704.02685" }
