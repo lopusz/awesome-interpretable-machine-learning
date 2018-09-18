@@ -1,0 +1,346 @@
+* Awesome Interpretable Machine Learning [[https://awesome.re][https://awesome.re/badge.svg]]
+
+Opinionated list of resources facilitating model interpretability
+(introspection, simplification, visualization, explanation).
+
+** Interpretable Models
+   + Interpretable models
+     + Simple decision trees
+     + Rules
+     + (Regularized) linear regression
+     + k-NN
+
+   + <a:1511.01644>
+
+   + <d:10.1145/2594473.2594475>
+     + http://www.kdd.org/exploration_files/V15-01-01-Freitas.pdf
+     + Interesting discussion of interpretability for a few  classification  models
+       (decision trees, classification rules, decision tables, nearest neighbors  and  Bayesian  network  classifier)
+
+** Feature Importance
+   + Models offering feature importance measures
+     + Random forest
+     + Boosted trees
+     + Extremely randomized trees
+       + <d:10.1007/s10994-006-6226-1>
+     + Random ferns
+       + <d:10.18637/jss.v061.i10>
+         + https://www.jstatsoft.org/article/view/v061i10/
+         + https://cran.r-project.org/web/packages/rFerns
+         + https://notabug.org/mbq/rFerns
+     + Linear regression (with a grain of salt)
+
+   + <a:1801.01489>
+     + https://github.com/aaronjfisher/mcr
+     + Universal (model agnostic) variable importance measure
+   
+   + <d:10.1186/1471-2105-8-25>
+
+   + <d:10.1186/1471-2105-9-307>
+
+   + Very good blog post describing deficiencies of random forest feature importance and the permutation importance
+     + http://explained.ai/rf-importance/index.html
+
+   + Permutation importance - simple model agnostic approach is described in Eli5 documentation
+     + https://eli5.readthedocs.io/en/latest/blackbox/permutation_importance.html
+
+** Feature Selection
+   + Classification of feature selection methods
+     + Filters
+     + Wrappers
+     + Embedded methods
+
+   + Filter Methods
+
+     + <a:1711.08477> 
+
+     + <a:1711.08421>
+
+     + On the Use of Variable Complementarity for Feature Selection in Cancer Classification
+       + Introduces information theoretic methods - double input symmetrical relevance (DISR)
+       + https://pdfs.semanticscholar.org/d72f/f5063520ce4542d6d9b9e6a4f12aafab6091.pdf
+
+     + Conditional Likelihood Maximisation: A Unifying Framework for Information Theoretic Feature Selection
+       + Discusses various approaches based on mutual information (MIM, mRMR, MIFS, CMIM, JMI, DISR, ICAP, CIFE, CMI)
+       + http://www.jmlr.org/papers/volume13/brown12a/brown12a.pdf
+
+   + Wrapper methods
+
+     + <d:10.18637/jss.v036.i11> 
+       + https://www.jstatsoft.org/article/view/v036i11
+       + https://cran.r-project.org/web/packages/Boruta/
+       + Official R code: https://notabug.org/mbq/Boruta/
+       + Python port: https://notabug.org/mbq/Boruta/
+
+     + Boruta for those in a hurry
+       + https://cran.r-project.org/web/packages/Boruta/vignettes/inahurry.pdf
+
+   + General
+
+     + Special issue of JMLR of feature selection - oldish (2003)
+       + http://www.jmlr.org/papers/special/feature03.html
+
+     + NIPS 2003 feature selection challenge
+       + Paper: https://papers.nips.cc/paper/2728-result-analysis-of-the-nips-2003-feature-selection-challenge.pdf
+       + Website http://clopinet.com/isabelle/Projects/NIPS2003/
+
+     + Irrelevant features and the subset selection problem
+       + Classical paper discussing weakly relevant features, irrelevant features, strongly relevant features
+       + https://pdfs.semanticscholar.org/a83b/ddb34618cc68f1014ca12eef7f537825d104.pdf
+
+     + Consistent Feature Selection for Pattern Recognition in Polynomial Time
+       + Discusses minimal optimal vs all-relevant approaches to feature selection
+       + http://www.jmlr.org/papers/volume8/nilsson07a/nilsson07a.pdf
+
+   + Feature Engineering and Selection by Kuhn & Johnson
+     + Sligtly off-topic, but very interesting book
+     + http://www.feat.engineering/index.html
+     + https://bookdown.org/max/FES/
+     + https://github.com/topepo/FES
+
+** Model Explanations
+*** Philosophy
+    + Magnets by R. P. Feynman
+      https://www.youtube.com/watch?v=wMFPe-DwULM
+
+    + The Mythos of Model Interpretability
+      + https://arxiv.org/pdf/1606.03490.pdf
+      + https://www.youtube.com/watch?v=mvzBQci04qA
+
+    + The Promise and Peril of Human Evaluation for Model Interpretability
+      + https://arxiv.org/pdf/1711.07414.pdf
+
+    + Towards Rigorous Science of Model Interpretability
+      + https://arxiv.org/pdf/1702.08608
+
+    + [[http://bayes.cs.ucla.edu/WHY/why-intro.pdf][The Book of Why: The New Science of Cause and Effect]] by Judea Pearl
+
+    + Looking Inside the Black Box, presentation of Leo Breiman
+      + https://www.stat.berkeley.edu/users/breiman/wald2002-2.pdf
+
+    + To explain or to predict?
+      + https://arxiv.org/pdf/1101.0891.pdf
+
+*** Model Agnostic Explanations
+    + LIME (Local Interpretable Model-agnostic Explanations)
+      + https://arxiv.org/pdf/1602.04938.pdf
+      + Code: https://github.com/marcotcr/lime
+      + https://github.com/marcotcr/lime-experiments
+      + https://www.youtube.com/watch?v=bCgEP2zuYxI
+
+    + SHAP (SHapley Additive exPlanations), generalizing LIME
+      + https://arxiv.org/pdf/1705.07874.pdf
+      + Code: https://github.com/slundberg/shap
+
+    + Anchors: High-Precision Model-Agnostic Explanations, another improvement over LIME
+      + https://homes.cs.washington.edu/~marcotcr/aaai18.pdf
+      + Code: https://github.com/marcotcr/anchor-experiments
+
+    + Explanations of Model Predictions with live and breakDown Package
+      + https://arxiv.org/pdf/1804.01955.pdf
+      + Docs: https://mi2datalab.github.io/live/
+      + Code: https://github.com/MI2DataLab/live
+      + Docs: https://pbiecek.github.io/breakDown
+      + Code: https://github.com/pbiecek/breakDown
+
+    + Model Explanation System by Ryan Turner
+      + http://www.blackboxworkshop.org/pdf/Turner2015_MES.pdf
+      + https://arxiv.org/pdf/1606.09517.pdf
+
+    + Understanding Black-box Predictions via Influence Functions
+      + https://arxiv.org/pdf/1703.04730.pdf
+
+    + Learning to Explain: An Information-Theoretic Perspective on Model Interpretation
+      + https://arxiv.org/pdf/1802.07814.pdf
+
+    + Peeking Inside the Black Box: Visualizing Statistical Learning with Plots of Individual Conditional Expectation
+      + https://arxiv.org/pdf/1309.6392
+
+    + A review book -  Interpretable Machine Learning. A Guide for Making Black Box
+      Models Explainable by Christoph Molnar
+
+      https://christophm.github.io/interpretable-ml-book/
+*** Model Specific Explanations - Neural Networks
+    + Visualizing and Understanding Convolutional Networks
+      + https://arxiv.org/pdf/1311.2901.pdf
+
+    + Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps
+      + https://arxiv.org/pdf/1312.6034.pdf
+
+    + Understanding Neural Networks Through Deep Visualization
+      + https://arxiv.org/pdf/1506.06579.pdf
+      + https://github.com/yosinski/deep-visualization-toolbox
+
+    + Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization
+      + https://arxiv.org/pdf/1610.02391
+
+    + Generating Visual Explanations
+      + https://arxiv.org/pdf/1603.08507.pdf
+
+    + Rationalizng Neural Network Predictions
+      + https://arxiv.org/pdf/1606.04155.pdf
+      + https://people.csail.mit.edu/taolei/papers/emnlp16_rationale_slides.pdf
+      + Code: https://github.com/taolei87/rcnn/tree/master/code/rationale
+
+    + Pixel entropy can be used to detect relevant picture regions (for CovNets)
+      + See Visualization section and Fig. 5 of the paper
+
+        High-Resolution Breast Cancer Screening with Multi-View Deep Convolutional Neural Networks
+
+        https://arxiv.org/pdf/1703.07047.pdf
+
+    + SVCCA: Singular Vector Canonical Correlation Analysis for Deep Learning Dynamics and Interpretability
+      + https://arxiv.org/pdf/1706.05806.pdf
+      + https://research.googleblog.com/2017/11/interpreting-deep-neural-networks-with.html
+
+    + Visual Explanation by Interpretation: Improving Visual Feedback Capabilities of Deep Neural Networks
+      + https://arxiv.org/pdf/1712.06302.pdf
+
+    + Axiomatic Attribution for Deep Networks
+
+      + Proposes Integrated Gradients Method
+
+      + https://arxiv.org/pdf/1703.01365.pdf
+
+      + Code: https://github.com/ankurtaly/Integrated-Gradients
+
+      + See also: Gradients of Counterfactuals https://arxiv.org/pdf/1611.02639.pdf
+
+    + Learning Important Features Through Propagating Activation Differences
+
+      + Proposes Deep Lift method
+
+      + https://arxiv.org/pdf/1704.02685.pdf
+
+      + Code: https://github.com/kundajelab/deeplift
+
+      + Videos: https://www.youtube.com/playlist?list=PLJLjQOkqSRTP3cLB2cOOi_bQFw6KPGKML
+
+    + The (Un)reliability of saliency methods
+      + Review of failures for methods extracting most important pixels for prediction
+      + https://arxiv.org/pdf/1711.00867.pdf
+
+    + Classifier-agnostic Saliency Map Extraction
+      + https://arxiv.org/pdf/1805.08249.pdf
+      + Code: https://github.com/kondiz/casme
+
+    + The Building Blocks of Interpretability
+      + https://distill.pub/2018/building-blocks
+      + Has some embeded links to notebooks
+      + Uses Lucid library https://github.com/tensorflow/lucid
+
+** Extracting Interpretable Models From Complex Ones
+
+   + Extracting Automata from Recurrent Neural Networks Using Queries and Counterexamples
+     + https://arxiv.org/pdf/1711.09576.pdf
+
+   + Distilling a Neural Network Into a Soft Decision Tree
+     + https://arxiv.org/pdf/1711.09784.pdf
+** Model Visualization
+   + Visualizing Statistical Models: Removing the blindfold
+     + http://had.co.nz/stat645/model-vis.pdf
+
+   + Partial dependence plots
+     + http://scikit-learn.org/stable/auto_examples/ensemble/plot_partial_dependence.html
+     + pdp: An R Package for Constructing Partial Dependence Plots
+       https://journal.r-project.org/archive/2017/RJ-2017-016/RJ-2017-016.pdf
+       https://cran.r-project.org/web/packages/pdp/index.html
+
+   + ggfortify: Unified Interface to Visualize Statistical Results of Popular R Packages
+     + https://journal.r-project.org/archive/2016-2/tang-horikoshi-li.pdf
+     + CRAN https://cran.r-project.org/web/packages/ggfortify/index.html
+
+   + RandomForestExplainer
+     + Master thesis https://rawgit.com/geneticsMiNIng/BlackBoxOpener/master/randomForestExplainer_Master_thesis.pdf
+     + R code
+       + CRAN https://cran.r-project.org/web/packages/randomForestExplainer/index.html
+       + Code: https://github.com/MI2DataLab/randomForestExplainer
+
+   + ggRandomForest
+     + Paper (vignette) https://github.com/ehrlinger/ggRandomForests/raw/master/vignettes/randomForestSRC-Survival.pdf
+     + R code
+       + CRAN https://cran.r-project.org/web/packages/ggRandomForests/index.html
+       + Code: https://github.com/ehrlinger/ggRandomForests
+
+** Selected Review Talks and Tutorials
+   + Tutorial on Interpretable machine learning at ICML 2017
+     + Slides: http://people.csail.mit.edu/beenkim/papers/BeenK_FinaleDV_ICML2017_tutorial.pdf
+
+   + P. Biecek, Show Me Your Model tools for visualisation of statistical models
+     + Video: https://channel9.msdn.com/Events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/Show-Me-Your-Model-tools-for-visualisation-of-statistical-models
+
+   + S. Ritchie, Just-So Stories of AI
+     + Video: https://www.youtube.com/watch?v=DiWkKqZChF0
+     + Slides: https://speakerdeck.com/sritchie/just-so-stories-for-ai-explaining-black-box-predictions
+
+   + C. Jarmul, Towards Interpretable Accountable Models
+     + Video: https://www.youtube.com/watch?v=B3PtcF-6Dtc
+     + Slides: https://docs.google.com/presentation/d/e/2PACX-1vR05kpagAbL5qo1QThxwu44TI5SQAws_UFVg3nUAmKp39uNG0xdBjcMA-VyEeqZRGGQtt0CS5h2DMTS/embed?start=false&loop=false&delayms=3000
+
+   + I. Oszvald, Machine Learning Libraries You'd Wish You'd Known About
+     + A large part of the talk covers model explanation and visualization
+     + Video: https://www.youtube.com/watch?v=nDF7_8FOhpI
+     + Associated notebook on explaining regression predictions: https://github.com/ianozsvald/data_science_delivered/blob/master/ml_explain_regression_prediction.ipynb
+
+   + G. Varoquaux, Understanding and diagnosing your machine-learning models (covers PDP and Lime among others)
+     + http://gael-varoquaux.info/interpreting_ml_tuto/
+
+** Venues
+   + Interpretable ML Symposium (NIPS 2017) (contains links to *papers*, *slides* and *videos*)
+     + http://interpretable.ml/
+     + Debate, Interpretability is necessary in machine learning
+       + https://www.youtube.com/watch?v=2hW05ZfsUUo
+   + Workshop on Human Interpretability in Machine Learning (WHI), organisedin conjunction with ICML
+     + 2018 (contains links to *papers* and *slides*)
+       + https://sites.google.com/view/whi2018
+       + Proceedings https://arxiv.org/html/1807.01308
+     + 2017 (contains links to *papers* and *slides*)
+       + https://sites.google.com/view/whi2017/home
+       + Proceedings https://arxiv.org/html/1708.02666
+     + 2016 (contains links to *papers*)
+       + https://sites.google.com/site/2016whi/
+       + Proceedings https://arxiv.org/html/1607.02531 or [[https://drive.google.com/open?id=0B9mGJ4F63iKGZWk0cXZraTNjRVU][here]]
+   + FAT/ML Fairness, Accountability, and Transparency in Machine Learning [[https://www.fatml.org/]]
+     + 2018
+       + https://www.fatml.org/schedule/2018
+     + 2017
+       + https://www.fatml.org/schedule/2017
+     + 2016
+       + https://www.fatml.org/schedule/2016
+     + 2016
+       + https://www.fatml.org/schedule/2016
+     + 2015
+       + https://www.fatml.org/schedule/2015
+     + 2014
+       + https://www.fatml.org/schedule/2014
+
+** Software
+   Software related to papers is mentioned along with each publication.
+   Here only standalone software is included.
+
+   + DALEX - Descriptive mAchine Learning EXplanations
+     + CRAN https://cran.r-project.org/web/packages/DALEX/DALEX.pdf
+     + Code: https://github.com/pbiecek/DALEX
+
+   + ELI5 - Python package dedicated to debugging machine learning classifiers
+     and explaining their predictions
+     + Code: https://github.com/TeamHG-Memex/eli5
+     + https://eli5.readthedocs.io/en/latest/
+
+   + forestmodel - R package visualizing coefficients of different models with the so called forest plot
+     + CRAN https://cran.r-project.org/web/packages/forestmodel/index.html
+     + Code: https://github.com/NikNakk/forestmodel
+
+   + fscaret - Automated Feature Selection from 'caret'
+     + CRAN https://cran.r-project.org/web/packages/fscaret/
+     + Tutorial: https://cran.r-project.org/web/packages/fscaret/vignettes/fscaret.pdf
+
+   + lime - R package implementing LIME
+     + https://github.com/thomasp85/lime
+
+   + Lucid - a collection of infrastructure and tools for research in neural network interpretability
+     + Code: https://github.com/tensorflow/lucid
+
+   + yellowbrick - visual analysis and diagnostic tools to facilitate machine learning model selection
+     + Code: https://github.com/DistrictDataLabs/yellowbrick
+     + http://www.scikit-yb.org/en/latest/
