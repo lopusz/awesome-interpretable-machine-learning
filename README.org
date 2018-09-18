@@ -160,7 +160,7 @@ Opinionated list of resources facilitating model interpretability
       + Introduces the SHAP method (SHapley Additive exPlanations), generalizing LIME
       + Code: https://github.com/slundberg/shap
 
-    + Anchors: High-Precision Model-Agnostic Explanations, another improvement over LIME
+    + Anchors: High-Precision Model-Agnostic Explanations by Marco Ribeiro, Sameer Singh, Carlos Guestrin
       + https://homes.cs.washington.edu/~marcotcr/aaai18.pdf
       + Code: https://github.com/marcotcr/anchor-experiments
 
