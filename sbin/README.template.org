@@ -10,9 +10,9 @@ Opinionated list of resources facilitating model interpretability
      + (Regularized) linear regression
      + k-NN
 
-   + <a:1511.01644>
+   + { "arxiv_id": "1511.01644" }
 
-   + <d:10.1145/2594473.2594475>
+   + { "doi" : "10.1145/2594473.2594475" }
      + http://www.kdd.org/exploration_files/V15-01-01-Freitas.pdf
      + Interesting discussion of interpretability for a few  classification  models
        (decision trees, classification rules, decision tables, nearest neighbors  and  Bayesian  network  classifier)
@@ -22,21 +22,21 @@ Opinionated list of resources facilitating model interpretability
      + Random forest
      + Boosted trees
      + Extremely randomized trees
-       + <d:10.1007/s10994-006-6226-1>
+       + { "doi" : "10.1007/s10994-006-6226-1" }
      + Random ferns
-       + <d:10.18637/jss.v061.i10>
+       + { "doi" : "10.18637/jss.v061.i10" }
          + https://www.jstatsoft.org/article/view/v061i10/
          + https://cran.r-project.org/web/packages/rFerns
          + https://notabug.org/mbq/rFerns
      + Linear regression (with a grain of salt)
 
-   + <a:1801.01489>
+   + { "arxiv_id" : "1801.01489" }
      + https://github.com/aaronjfisher/mcr
      + Universal (model agnostic) variable importance measure
    
-   + <d:10.1186/1471-2105-8-25>
+   + { "doi" : "10.1186/1471-2105-8-25", "title" : "Bias in random forest variable importance measures: Illustrations, sources and a solution" }
 
-   + <d:10.1186/1471-2105-9-307>
+   + { "doi" : "10.1186/1471-2105-9-307" }
 
    + Very good blog post describing deficiencies of random forest feature importance and the permutation importance
      + http://explained.ai/rf-importance/index.html
@@ -52,13 +52,13 @@ Opinionated list of resources facilitating model interpretability
 
    + Filter Methods
 
-     + <a:1711.08477> 
+     + { "arxiv_id" : "1711.08477" } 
 
-     + <a:1711.08421>
+     + { "arxiv_id" : "1711.08421" }
 
-     + On the Use of Variable Complementarity for Feature Selection in Cancer Classification
-       + Introduces information theoretic methods - double input symmetrical relevance (DISR)
+     + { "sems_id" : "d72ff5063520ce4542d6d9b9e6a4f12aafab6091" } 
        + https://pdfs.semanticscholar.org/d72f/f5063520ce4542d6d9b9e6a4f12aafab6091.pdf
+       + Introduces information theoretic methods - double input symmetrical relevance (DISR)
 
      + Conditional Likelihood Maximisation: A Unifying Framework for Information Theoretic Feature Selection
        + Discusses various approaches based on mutual information (MIM, mRMR, MIFS, CMIM, JMI, DISR, ICAP, CIFE, CMI)
@@ -66,7 +66,7 @@ Opinionated list of resources facilitating model interpretability
 
    + Wrapper methods
 
-     + <d:10.18637/jss.v036.i11> 
+     + { "doi" : "10.18637/jss.v036.i11" } 
        + https://www.jstatsoft.org/article/view/v036i11
        + https://cran.r-project.org/web/packages/Boruta/
        + Official R code: https://notabug.org/mbq/Boruta/
@@ -103,63 +103,57 @@ Opinionated list of resources facilitating model interpretability
     + Magnets by R. P. Feynman
       https://www.youtube.com/watch?v=wMFPe-DwULM
 
-    + The Mythos of Model Interpretability
-      + https://arxiv.org/pdf/1606.03490.pdf
+    + { "arxiv_id" : "1606.03490" }
       + https://www.youtube.com/watch?v=mvzBQci04qA
 
-    + The Promise and Peril of Human Evaluation for Model Interpretability
+    + { "arxiv_id" : "1711.07414" } 
       + https://arxiv.org/pdf/1711.07414.pdf
 
-    + Towards Rigorous Science of Model Interpretability
-      + https://arxiv.org/pdf/1702.08608
+    + { "arxiv_id" : "1702.08608" }
 
     + [[http://bayes.cs.ucla.edu/WHY/why-intro.pdf][The Book of Why: The New Science of Cause and Effect]] by Judea Pearl
 
     + Looking Inside the Black Box, presentation of Leo Breiman
       + https://www.stat.berkeley.edu/users/breiman/wald2002-2.pdf
 
-    + To explain or to predict?
-      + https://arxiv.org/pdf/1101.0891.pdf
+    + { "arxiv_id" : "1101.0891" } 
 
 *** Model Agnostic Explanations
-    + LIME (Local Interpretable Model-agnostic Explanations)
+    + { "arxiv_id" : "1602.04938" }
       + https://arxiv.org/pdf/1602.04938.pdf
+      + Introduces the LIME method (Local Interpretable Model-agnostic Explanations)
       + Code: https://github.com/marcotcr/lime
       + https://github.com/marcotcr/lime-experiments
       + https://www.youtube.com/watch?v=bCgEP2zuYxI
 
-    + SHAP (SHapley Additive exPlanations), generalizing LIME
-      + https://arxiv.org/pdf/1705.07874.pdf
+    + { "arxiv_id" : "1705.07874" }
+      + Introduces the SHAP method (SHapley Additive exPlanations), generalizing LIME
       + Code: https://github.com/slundberg/shap
 
     + Anchors: High-Precision Model-Agnostic Explanations, another improvement over LIME
       + https://homes.cs.washington.edu/~marcotcr/aaai18.pdf
       + Code: https://github.com/marcotcr/anchor-experiments
 
-    + Explanations of Model Predictions with live and breakDown Package
+    + { "arxiv_id" : "1804.01955" }
       + https://arxiv.org/pdf/1804.01955.pdf
       + Docs: https://mi2datalab.github.io/live/
       + Code: https://github.com/MI2DataLab/live
       + Docs: https://pbiecek.github.io/breakDown
       + Code: https://github.com/pbiecek/breakDown
 
-    + Model Explanation System by Ryan Turner
+    + { "arxiv_id" : "1606.09517" }
       + http://www.blackboxworkshop.org/pdf/Turner2015_MES.pdf
-      + https://arxiv.org/pdf/1606.09517.pdf
 
-    + Understanding Black-box Predictions via Influence Functions
-      + https://arxiv.org/pdf/1703.04730.pdf
+    + {"arxiv_id" : "1703.04730" }
 
-    + Learning to Explain: An Information-Theoretic Perspective on Model Interpretation
-      + https://arxiv.org/pdf/1802.07814.pdf
+    + { "arxiv_id" : "1802.07814" }
 
-    + Peeking Inside the Black Box: Visualizing Statistical Learning with Plots of Individual Conditional Expectation
-      + https://arxiv.org/pdf/1309.6392
+    + { "arxiv_id" : "1309.6392" }
 
     + A review book -  Interpretable Machine Learning. A Guide for Making Black Box
       Models Explainable by Christoph Molnar
 
-      https://christophm.github.io/interpretable-ml-book/
+      + https://christophm.github.io/interpretable-ml-book/
 *** Model Specific Explanations - Neural Networks
     + Visualizing and Understanding Convolutional Networks
       + https://arxiv.org/pdf/1311.2901.pdf
