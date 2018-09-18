@@ -39,7 +39,7 @@ Opinionated list of resources facilitating model interpretability
      + https://arxiv.org/pdf/1801.01489
      + https://github.com/aaronjfisher/mcr
      + Universal (model agnostic) variable importance measure
-   
+
    + Bias in random forest variable importance measures: Illustrations, sources and a solution by Carolin Strobl, Anne-Laure Boulesteix, Achim Zeileis, Torsten Hothorn
      + https://dx.doi.org/10.1186/1471-2105-8-25
 
@@ -60,11 +60,11 @@ Opinionated list of resources facilitating model interpretability
 
    + Filter Methods
 
-     + Benchmarking Relief-Based Feature Selection Methods for Bioinformatics Data Mining by Ryan J. Urbanowicz, Randal S. Olson, Peter Schmitt, Melissa Meeker, Jason H. Moore
-       + https://arxiv.org/pdf/1711.08477
-
      + Relief-Based Feature Selection: Introduction and Review by Ryan J. Urbanowicz, Melissa Meeker, William LaCava, Randal S. Olson, Jason H. Moore
        + https://arxiv.org/pdf/1711.08421
+
+     + Benchmarking Relief-Based Feature Selection Methods for Bioinformatics Data Mining by Ryan J. Urbanowicz, Randal S. Olson, Peter Schmitt, Melissa Meeker, Jason H. Moore
+       + https://arxiv.org/pdf/1711.08477
 
      + On the Use of Variable Complementarity for Feature Selection in Cancer Classification by Patrick Meyer, Gianluca Bontempi
        + https://dx.doi.org/10.1007/11732242_9
@@ -92,15 +92,18 @@ Opinionated list of resources facilitating model interpretability
      + Special issue of JMLR of feature selection - oldish (2003)
        + http://www.jmlr.org/papers/special/feature03.html
 
-     + NIPS 2003 feature selection challenge
+     + Result Analysis of the NIPS 2003 Feature Selection Challenge by Isabelle Guyon, Steve Gunn, Asa Ben-Hur, Gideon Dror
+       + NIPS 2003 feature selection challenge
        + Paper: https://papers.nips.cc/paper/2728-result-analysis-of-the-nips-2003-feature-selection-challenge.pdf
        + Website http://clopinet.com/isabelle/Projects/NIPS2003/
 
-     + Irrelevant features and the subset selection problem
-       + Classical paper discussing weakly relevant features, irrelevant features, strongly relevant features
+     + Irrelevant Features and the Subset Selection Problem by George John, Ron Kohavi, Karl Pfleger
+       + Irrelevant features and the subset selection problem
+       + Classic paper discussing weakly relevant features, irrelevant features, strongly relevant features
        + https://pdfs.semanticscholar.org/a83b/ddb34618cc68f1014ca12eef7f537825d104.pdf
 
-     + Consistent Feature Selection for Pattern Recognition in Polynomial Time
+     + Consistent Feature Selection for Pattern Recognition in Polynomial Time by Roland Nilsson, José Peña, Johan Björkegren, Jesper Tegnér
+       + Consistent Feature Selection for Pattern Recognition in Polynomial Time
        + Discusses minimal optimal vs all-relevant approaches to feature selection
        + http://www.jmlr.org/papers/volume8/nilsson07a/nilsson07a.pdf
 
@@ -114,6 +117,10 @@ Opinionated list of resources facilitating model interpretability
 *** Philosophy
     + Magnets by R. P. Feynman
       https://www.youtube.com/watch?v=wMFPe-DwULM
+
+    + To Explain or to Predict? by Galit Shmueli
+      + https://arxiv.org/pdf/1101.0891
+      + https://dx.doi.org/10.1214/10-STS330
 
     + The Mythos of Model Interpretability by Zachary C. Lipton
       + https://arxiv.org/pdf/1606.03490
@@ -130,17 +137,23 @@ Opinionated list of resources facilitating model interpretability
     + Looking Inside the Black Box, presentation of Leo Breiman
       + https://www.stat.berkeley.edu/users/breiman/wald2002-2.pdf
 
-    + To Explain or to Predict? by Galit Shmueli
-      + https://arxiv.org/pdf/1101.0891
-      + https://dx.doi.org/10.1214/10-STS330
-
 *** Model Agnostic Explanations
+    + Peeking Inside the Black Box: Visualizing Statistical Learning with Plots of Individual Conditional Expectation by Alex Goldstein, Adam Kapelner, Justin Bleich, Emil Pitkin
+      + https://arxiv.org/pdf/1309.6392
+
     + "Why Should I Trust You?": Explaining the Predictions of Any Classifier by Marco Tulio Ribeiro, Sameer Singh, Carlos Guestrin
       + https://arxiv.org/pdf/1602.04938
       + Introduces the LIME method (Local Interpretable Model-agnostic Explanations)
       + Code: https://github.com/marcotcr/lime
       + https://github.com/marcotcr/lime-experiments
       + https://www.youtube.com/watch?v=bCgEP2zuYxI
+
+    + A Model Explanation System: Latest Updates and Extensions by Ryan Turner
+      + https://arxiv.org/pdf/1606.09517
+      + http://www.blackboxworkshop.org/pdf/Turner2015_MES.pdf
+
+    + Understanding Black-box Predictions via Influence Functions by Pang Wei Koh, Percy Liang
+      + https://arxiv.org/pdf/1703.04730
 
     + A Unified Approach to Interpreting Model Predictions by Scott Lundberg, Su-In Lee
       + https://arxiv.org/pdf/1705.07874
@@ -151,25 +164,15 @@ Opinionated list of resources facilitating model interpretability
       + https://homes.cs.washington.edu/~marcotcr/aaai18.pdf
       + Code: https://github.com/marcotcr/anchor-experiments
 
+    + Learning to Explain: An Information-Theoretic Perspective on Model Interpretation by Jianbo Chen, Le Song, Martin J. Wainwright, Michael I. Jordan
+      + https://arxiv.org/pdf/1802.07814
+
     + Explanations of model predictions with live and breakDown packages by Mateusz Staniak, Przemyslaw Biecek
       + https://arxiv.org/pdf/1804.01955
       + Docs: https://mi2datalab.github.io/live/
       + Code: https://github.com/MI2DataLab/live
       + Docs: https://pbiecek.github.io/breakDown
       + Code: https://github.com/pbiecek/breakDown
-
-    + A Model Explanation System: Latest Updates and Extensions by Ryan Turner
-      + https://arxiv.org/pdf/1606.09517
-      + http://www.blackboxworkshop.org/pdf/Turner2015_MES.pdf
-
-    + Understanding Black-box Predictions via Influence Functions by Pang Wei Koh, Percy Liang
-      + https://arxiv.org/pdf/1703.04730
-
-    + Learning to Explain: An Information-Theoretic Perspective on Model Interpretation by Jianbo Chen, Le Song, Martin J. Wainwright, Michael I. Jordan
-      + https://arxiv.org/pdf/1802.07814
-
-    + Peeking Inside the Black Box: Visualizing Statistical Learning with Plots of Individual Conditional Expectation by Alex Goldstein, Adam Kapelner, Justin Bleich, Emil Pitkin
-      + https://arxiv.org/pdf/1309.6392
 
     + A review book -  Interpretable Machine Learning. A Guide for Making Black Box
       Models Explainable by Christoph Molnar
@@ -178,7 +181,7 @@ Opinionated list of resources facilitating model interpretability
 *** Model Specific Explanations - Neural Networks
     + Visualizing and Understanding Convolutional Networks by Matthew D Zeiler, Rob Fergus
       + https://arxiv.org/pdf/1311.2901
-    
+
     + Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps by Karen Simonyan, Andrea Vedaldi, Andrew Zisserman
       + https://arxiv.org/pdf/1312.6034
 
@@ -204,7 +207,7 @@ Opinionated list of resources facilitating model interpretability
       + See Visualization section and Fig. 5 of the paper
         + High-Resolution Breast Cancer Screening with Multi-View Deep Convolutional Neural Networks by Krzysztof J. Geras, Stacey Wolfson, Yiqiu Shen, Nan Wu, S. Gene Kim, Eric Kim, Laura Heacock, Ujas Parikh, Linda Moy, Kyunghyun Cho
           + https://arxiv.org/pdf/1703.07047
-       
+
     + SVCCA: Singular Vector Canonical Correlation Analysis for Deep Learning Dynamics and Interpretability by Maithra Raghu, Justin Gilmer, Jason Yosinski, Jascha Sohl-Dickstein
       + https://arxiv.org/pdf/1706.05806
       + https://research.googleblog.com/2017/11/interpreting-deep-neural-networks-with.html
@@ -237,7 +240,7 @@ Opinionated list of resources facilitating model interpretability
 
     + Classifier-agnostic saliency map extraction by Konrad Zolna, Krzysztof J. Geras, Kyunghyun Cho
       + https://arxiv.org/pdf/1805.08249
-    
+
     + Classifier-agnostic Saliency Map Extraction
       + Code: https://github.com/kondiz/casme
 
@@ -247,10 +250,10 @@ Opinionated list of resources facilitating model interpretability
       + Uses Lucid library https://github.com/tensorflow/lucid
 
 ** Extracting Interpretable Models From Complex Ones
-   
+
    + Extracting Automata from Recurrent Neural Networks Using Queries and Counterexamples by Gail Weiss, Yoav Goldberg, Eran Yahav
      + https://arxiv.org/pdf/1711.09576
- 
+
    + Distilling a Neural Network Into a Soft Decision Tree by Nicholas Frosst, Geoffrey Hinton
      + https://arxiv.org/pdf/1711.09784
 
