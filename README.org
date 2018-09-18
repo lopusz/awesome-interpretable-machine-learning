@@ -71,7 +71,7 @@ Opinionated list of resources facilitating model interpretability
        + https://pdfs.semanticscholar.org/d72f/f5063520ce4542d6d9b9e6a4f12aafab6091.pdf
        + Introduces information theoretic methods - double input symmetrical relevance (DISR)
 
-     + Conditional Likelihood Maximisation: A Unifying Framework for Information Theoretic Feature Selection
+     + Conditional Likelihood Maximisation: A Unifying Framework for Information Theoretic Feature Selection by Gavin Brown, Adam Pocock, Ming-Jie Zhao, Mikel Luján
        + Discusses various approaches based on mutual information (MIM, mRMR, MIFS, CMIM, JMI, DISR, ICAP, CIFE, CMI)
        + http://www.jmlr.org/papers/volume13/brown12a/brown12a.pdf
 
