@@ -40,6 +40,11 @@ Opinionated list of resources facilitating model interpretability
      + https://github.com/aaronjfisher/mcr
      + Universal (model agnostic) variable importance measure
 
+   + Visualizing the Feature Importance for Black Box Models by Giuseppe Casalicchio, Christoph Molnar, Bernd Bischl
+     + https://arxiv.org/abs/1804.06620
+     + https://github.com/giuseppec/featureImportance
+     + Global and local (model agnostic) variable importance measure (based on Model Reliance)
+
    + Bias in random forest variable importance measures: Illustrations, sources and a solution by Carolin Strobl, Anne-Laure Boulesteix, Achim Zeileis, Torsten Hothorn
      + https://dx.doi.org/10.1186/1471-2105-8-25
 
@@ -332,6 +337,11 @@ Opinionated list of resources facilitating model interpretability
 ** Software
    Software related to papers is mentioned along with each publication.
    Here only standalone software is included.
+
+   + iml - An R package for Interpretable Machine Learning
+     + CRAN https://cran.r-project.org/web/packages/iml/
+     + Code: https://github.com/christophM/iml
+     + Publication: http://joss.theoj.org/papers/10.21105/joss.00786
 
    + DALEX - Descriptive mAchine Learning EXplanations
      + CRAN https://cran.r-project.org/web/packages/DALEX/DALEX.pdf
