@@ -311,7 +311,7 @@ Opinionated list of resources facilitating model interpretability
      + http://interpretable.ml/
      + Debate, Interpretability is necessary in machine learning
        + https://www.youtube.com/watch?v=2hW05ZfsUUo
-   + Workshop on Human Interpretability in Machine Learning (WHI), organisedin conjunction with ICML
+   + Workshop on Human Interpretability in Machine Learning (WHI), organised in conjunction with ICML
      + 2018 (contains links to *papers* and *slides*)
        + https://sites.google.com/view/whi2018
        + Proceedings https://arxiv.org/html/1807.01308
@@ -321,6 +321,10 @@ Opinionated list of resources facilitating model interpretability
      + 2016 (contains links to *papers*)
        + https://sites.google.com/site/2016whi/
        + Proceedings https://arxiv.org/html/1607.02531 or [[https://drive.google.com/open?id=0B9mGJ4F63iKGZWk0cXZraTNjRVU][here]]
+   + Analyzing and interpreting neural networks for NLP (BlackboxNLP), organised in conjunction with EMNLP 2018
+     + https://blackboxnlp.github.io/
+     + https://blackboxnlp.github.io/program.html
+     + [[https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=BlackboxNLP&terms-0-field=comments&terms-1-operator=OR&terms-1-term=Analyzing+interpreting+neural+networks+NLP&terms-1-field=comments&classification-physics_archives=all&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=200&order=-announced_date_first][List of papers]]
    + FAT/ML Fairness, Accountability, and Transparency in Machine Learning [[https://www.fatml.org/]]
      + 2018
        + https://www.fatml.org/schedule/2018
