@@ -12,6 +12,8 @@ Opinionated list of resources facilitating model interpretability
 
    + { "arxiv_id": "1511.01644" }
 
+   + { "doi" : "10.1214/07-AOAS148" }
+
    + { "doi" : "10.1145/2594473.2594475" }
      + http://www.kdd.org/exploration_files/V15-01-01-Freitas.pdf
      + Interesting discussion of interpretability for a few  classification  models
