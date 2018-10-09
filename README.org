@@ -367,6 +367,10 @@ Opinionated list of resources facilitating model interpretability
    + Lucid - a collection of infrastructure and tools for research in neural network interpretability
      + Code: https://github.com/tensorflow/lucid
 
+   + praznik - a collection of feature selection filters performing greedy optimisation of mutual information-based usefulness criteria, see JMLR 13, 27−66 (2012)
+     + CRAN https://cran.r-project.org/web/packages/praznik/index.html
+     + Code: https://notabug.org/mbq/praznik
+
    + yellowbrick - visual analysis and diagnostic tools to facilitate machine learning model selection
      + Code: https://github.com/DistrictDataLabs/yellowbrick
      + http://www.scikit-yb.org/en/latest/
