@@ -25,7 +25,6 @@ Opinionated list of resources facilitating model interpretability
        + { "doi" : "10.1007/s10994-006-6226-1" }
      + Random ferns
        + { "doi" : "10.18637/jss.v061.i10" }
-         + https://www.jstatsoft.org/article/view/v061i10/
          + https://cran.r-project.org/web/packages/rFerns
          + https://notabug.org/mbq/rFerns
      + Linear regression (with a grain of salt)
@@ -71,10 +70,9 @@ Opinionated list of resources facilitating model interpretability
    + Wrapper methods
 
      + { "doi" : "10.18637/jss.v036.i11" }
-       + https://www.jstatsoft.org/article/view/v036i11
        + https://cran.r-project.org/web/packages/Boruta/
        + Official R code: https://notabug.org/mbq/Boruta/
-       + Python port: https://notabug.org/mbq/Boruta/
+       + Python port: https://github.com/scikit-learn-contrib/boruta_py
 
      + Boruta for those in a hurry
        + https://cran.r-project.org/web/packages/Boruta/vignettes/inahurry.pdf
@@ -85,7 +83,6 @@ Opinionated list of resources facilitating model interpretability
        + http://www.jmlr.org/papers/special/feature03.html
 
      + { "sems_id" : "b14dea76cafede81c6ff5478d4221fce3aec9284" }
-       + NIPS 2003 feature selection challenge
        + Paper: https://papers.nips.cc/paper/2728-result-analysis-of-the-nips-2003-feature-selection-challenge.pdf
        + Website http://clopinet.com/isabelle/Projects/NIPS2003/
 

@@ -30,7 +30,6 @@ Opinionated list of resources facilitating model interpretability
      + Random ferns
        + rFerns: An Implementation of the Random Ferns Method for General-Purpose Machine Learning by Miron B. Kursa
          + https://dx.doi.org/10.18637/jss.v061.i10
-         + https://www.jstatsoft.org/article/view/v061i10/
          + https://cran.r-project.org/web/packages/rFerns
          + https://notabug.org/mbq/rFerns
      + Linear regression (with a grain of salt)
@@ -84,10 +83,9 @@ Opinionated list of resources facilitating model interpretability
 
      + Feature Selection with theBorutaPackage by Miron B. Kursa, Witold R. Rudnicki
        + https://dx.doi.org/10.18637/jss.v036.i11
-       + https://www.jstatsoft.org/article/view/v036i11
        + https://cran.r-project.org/web/packages/Boruta/
        + Official R code: https://notabug.org/mbq/Boruta/
-       + Python port: https://notabug.org/mbq/Boruta/
+       + Python port: https://github.com/scikit-learn-contrib/boruta_py
 
      + Boruta for those in a hurry
        + https://cran.r-project.org/web/packages/Boruta/vignettes/inahurry.pdf
@@ -98,7 +96,6 @@ Opinionated list of resources facilitating model interpretability
        + http://www.jmlr.org/papers/special/feature03.html
 
      + Result Analysis of the NIPS 2003 Feature Selection Challenge by Isabelle Guyon, Steve Gunn, Asa Ben-Hur, Gideon Dror
-       + NIPS 2003 feature selection challenge
        + Paper: https://papers.nips.cc/paper/2728-result-analysis-of-the-nips-2003-feature-selection-challenge.pdf
        + Website http://clopinet.com/isabelle/Projects/NIPS2003/
 
