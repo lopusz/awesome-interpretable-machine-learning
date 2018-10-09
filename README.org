@@ -77,15 +77,19 @@ Opinionated list of resources facilitating model interpretability
 
      + Conditional Likelihood Maximisation: A Unifying Framework for Information Theoretic Feature Selection by Gavin Brown, Adam Pocock, Ming-Jie Zhao, Mikel Luján
        + http://www.jmlr.org/papers/volume13/brown12a/brown12a.pdf
+       + Code: https://github.com/Craigacp/FEAST
        + Discusses various approaches based on mutual information (MIM, mRMR, MIFS, CMIM, JMI, DISR, ICAP, CIFE, CMI)
+
+     + Feature selection via joint likelihood by Adam Pocock
+       + http://www.cs.man.ac.uk/~gbrown/publications/pocockPhDthesis.pdf
 
    + Wrapper methods
 
      + Feature Selection with theBorutaPackage by Miron B. Kursa, Witold R. Rudnicki
        + https://dx.doi.org/10.18637/jss.v036.i11
        + https://cran.r-project.org/web/packages/Boruta/
-       + Official R code: https://notabug.org/mbq/Boruta/
-       + Python port: https://github.com/scikit-learn-contrib/boruta_py
+       + Code (official, R): https://notabug.org/mbq/Boruta/
+       + Code (Python): https://github.com/scikit-learn-contrib/boruta_py
 
      + Boruta for those in a hurry
        + https://cran.r-project.org/web/packages/Boruta/vignettes/inahurry.pdf

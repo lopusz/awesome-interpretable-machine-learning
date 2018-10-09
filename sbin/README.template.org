@@ -65,14 +65,18 @@ Opinionated list of resources facilitating model interpretability
 
      + { "sems_id" : "2629632a8032c02ad25021dbea82184077117d78" }
        + http://www.jmlr.org/papers/volume13/brown12a/brown12a.pdf
+       + Code: https://github.com/Craigacp/FEAST
        + Discusses various approaches based on mutual information (MIM, mRMR, MIFS, CMIM, JMI, DISR, ICAP, CIFE, CMI)
+
+     + { "sems_id" : "5a2f4bdab1499314a24e3a8d3c88dbfc6f6ecaf6" }
+       + http://www.cs.man.ac.uk/~gbrown/publications/pocockPhDthesis.pdf
 
    + Wrapper methods
 
      + { "doi" : "10.18637/jss.v036.i11" }
        + https://cran.r-project.org/web/packages/Boruta/
-       + Official R code: https://notabug.org/mbq/Boruta/
-       + Python port: https://github.com/scikit-learn-contrib/boruta_py
+       + Code (official, R): https://notabug.org/mbq/Boruta/
+       + Code (Python): https://github.com/scikit-learn-contrib/boruta_py
 
      + Boruta for those in a hurry
        + https://cran.r-project.org/web/packages/Boruta/vignettes/inahurry.pdf
