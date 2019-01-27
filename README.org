@@ -144,6 +144,13 @@ Opinionated list of resources facilitating model interpretability
     + Looking Inside the Black Box, presentation of Leo Breiman
       + https://www.stat.berkeley.edu/users/breiman/wald2002-2.pdf
 
+    + Please stop doing the "explainable" ML by Cynthia Rudin
+      + Video (starts 17:30): https://zoom.us/recording/play/0y-iI9HamgyDzzP2k_jiTu6jB7JgVVXnjWZKDMbnyRTn3FsxTDZy6Wkrj3_ekx4J
+      + Linked at: https://users.cs.duke.edu/~cynthia/mediatalks.html
+
+    + Explaining Explanations: An Approach to Evaluating Interpretability of Machine Learning by Leilani H. Gilpin, David Bau, Ben Z. Yuan, Ayesha Bajwa, Michael Specter, Lalana Kagal
+      + https://arxiv.org/pdf/1806.00069
+
 *** Model Agnostic Explanations
     + Peeking Inside the Black Box: Visualizing Statistical Learning with Plots of Individual Conditional Expectation by Alex Goldstein, Adam Kapelner, Justin Bleich, Emil Pitkin
       + https://arxiv.org/pdf/1309.6392

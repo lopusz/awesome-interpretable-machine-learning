@@ -125,6 +125,12 @@ Opinionated list of resources facilitating model interpretability
     + Looking Inside the Black Box, presentation of Leo Breiman
       + https://www.stat.berkeley.edu/users/breiman/wald2002-2.pdf
 
+    + Please stop doing the "explainable" ML by Cynthia Rudin
+      + Video (starts 17:30, lasts 10 min): https://zoom.us/recording/play/0y-iI9HamgyDzzP2k_jiTu6jB7JgVVXnjWZKDMbnyRTn3FsxTDZy6Wkrj3_ekx4J
+      + Linked at: https://users.cs.duke.edu/~cynthia/mediatalks.html
+
+    + { "arxiv_id" : "1806.00069" }
+
 *** Model Agnostic Explanations
     + { "arxiv_id" : "1309.6392" }
 
