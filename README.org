@@ -251,7 +251,7 @@ Opinionated list of resources facilitating model interpretability
       + https://distill.pub/2018/building-blocks
       + Has some embeded links to notebooks
       + Uses Lucid library https://github.com/tensorflow/lucid
-      
+
     + YASENN: Explaining Neural Networks via Partitioning Activation Sequences by Yaroslav Zharov, Denis Korzhenkov, Pavel Shvechikov, Alexander Tuzhilin
       + https://arxiv.org/pdf/1811.02783
 

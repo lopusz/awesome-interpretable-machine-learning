@@ -212,6 +212,8 @@ Opinionated list of resources facilitating model interpretability
       + Has some embeded links to notebooks
       + Uses Lucid library https://github.com/tensorflow/lucid
 
+    + { "arxiv_id" : "1811.02783" }
+
 ** Extracting Interpretable Models From Complex Ones
 
    + { "arxiv_id" : "1711.09576" }
