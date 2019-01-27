@@ -125,7 +125,7 @@ Opinionated list of resources facilitating model interpretability
     + Looking Inside the Black Box, presentation of Leo Breiman
       + https://www.stat.berkeley.edu/users/breiman/wald2002-2.pdf
 
-    + Please stop doing the "explainable" ML by Cynthia Rudin
+    + Please Stop Doing the "Explainable" ML by Cynthia Rudin
       + Video (starts 17:30, lasts 10 min): https://zoom.us/recording/play/0y-iI9HamgyDzzP2k_jiTu6jB7JgVVXnjWZKDMbnyRTn3FsxTDZy6Wkrj3_ekx4J
       + Linked at: https://users.cs.duke.edu/~cynthia/mediatalks.html
 
@@ -256,7 +256,7 @@ Opinionated list of resources facilitating model interpretability
    + Tutorial on Interpretable machine learning at ICML 2017
      + Slides: http://people.csail.mit.edu/beenkim/papers/BeenK_FinaleDV_ICML2017_tutorial.pdf
 
-   + P. Biecek, Show Me Your Model tools for visualisation of statistical models
+   + P. Biecek, Show Me Your Model - Tools for Visualisation of Statistical Models
      + Video: https://channel9.msdn.com/Events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/Show-Me-Your-Model-tools-for-visualisation-of-statistical-models
 
    + S. Ritchie, Just-So Stories of AI
