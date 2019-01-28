@@ -19,6 +19,8 @@ Opinionated list of resources facilitating model interpretability
      + Interesting discussion of interpretability for a few  classification  models
        (decision trees, classification rules, decision tables, nearest neighbors  and  Bayesian  network  classifier)
 
+   + { "arxiv_id" : "1711.04574" }
+
 ** Feature Importance
    + Models offering feature importance measures
      + Random forest
