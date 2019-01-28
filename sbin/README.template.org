@@ -132,6 +132,8 @@ Opinionated list of resources facilitating model interpretability
     + { "arxiv_id" : "1806.00069" }
 
 *** Model Agnostic Explanations
+    + { "arxiv_id" : "0912.1128" }
+
     + { "arxiv_id" : "1309.6392" }
 
     + { "arxiv_id" : "1602.04938" }

@@ -152,6 +152,9 @@ Opinionated list of resources facilitating model interpretability
       + https://arxiv.org/pdf/1806.00069
 
 *** Model Agnostic Explanations
+    + How to Explain Individual Classification Decisions by David Baehrens, Timon Schroeter, Stefan Harmeling, Motoaki Kawanabe, Katja Hansen, Klaus-Robert Mueller
+      + https://arxiv.org/pdf/0912.1128
+
     + Peeking Inside the Black Box: Visualizing Statistical Learning with Plots of Individual Conditional Expectation by Alex Goldstein, Adam Kapelner, Justin Bleich, Emil Pitkin
       + https://arxiv.org/pdf/1309.6392
 
