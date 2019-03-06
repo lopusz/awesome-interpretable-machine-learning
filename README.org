@@ -268,6 +268,10 @@ Opinionated list of resources facilitating model interpretability
     + YASENN: Explaining Neural Networks via Partitioning Activation Sequences by Yaroslav Zharov, Denis Korzhenkov, Pavel Shvechikov, Alexander Tuzhilin
       + https://arxiv.org/pdf/1811.02783
 
+    + iNNvestigate neural networks! by Maximilian Alber et al.
+      + Code: https://github.com/albermax/innvestigate
+      + https://arxiv.org/abs/1808.04260
+
 ** Extracting Interpretable Models From Complex Ones
 
    + Extracting Automata from Recurrent Neural Networks Using Queries and Counterexamples by Gail Weiss, Yoav Goldberg, Eran Yahav
