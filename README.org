@@ -68,6 +68,10 @@ Opinionated list of resources facilitating model interpretability
      + Wrappers
      + Embedded methods
 
+   + An Introduction to Variable and Feature Selection by Isabelle Guyon, André Elisseeff
+     + http://www.jmlr.org/papers/volume3/guyon03a/guyon03a.pdf
+     + Be sure to read this very illustrative introduction to feature selection
+
    + Filter Methods
 
      + Relief-Based Feature Selection: Introduction and Review by Ryan J. Urbanowicz, Melissa Meeker, William LaCava, Randal S. Olson, Jason H. Moore

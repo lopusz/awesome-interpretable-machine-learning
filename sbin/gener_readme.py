@@ -233,7 +233,7 @@ def convert_metadata_to_lines(m):
     if arxiv_id is not None:
         content += prefix + 'https://arxiv.org/pdf/' + arxiv_id + '\n'
     doi = m.get('doi', None)
-    if doi is not None:
+    if doi is not None and not m.get('skip_doi', False):
         content += prefix + 'https://dx.doi.org/' + doi + '\n'
     return content
 

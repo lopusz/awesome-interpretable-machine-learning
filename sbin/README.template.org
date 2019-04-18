@@ -57,6 +57,10 @@ Opinionated list of resources facilitating model interpretability
      + Wrappers
      + Embedded methods
 
+   + { "sems_id" :  "5264ae4ea4411426ddd91dc780c2892c3ff933d3", "skip_doi" : true }
+     + http://www.jmlr.org/papers/volume3/guyon03a/guyon03a.pdf
+     + Be sure to read this very illustrative introduction to feature selection
+
    + Filter Methods
 
      + { "arxiv_id" : "1711.08421" }
