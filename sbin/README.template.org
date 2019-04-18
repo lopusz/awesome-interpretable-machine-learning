@@ -112,6 +112,10 @@ Opinionated list of resources facilitating model interpretability
      + https://bookdown.org/max/FES/
      + https://github.com/topepo/FES
 
+  + Feature Engineering presentation by H. J. van Veen
+    + Slightly off-topicm but very interesting deck of slides
+    + Slides: https://www.slideshare.net/HJvanVeen/feature-engineering-72376750
+
 ** Model Explanations
 *** Philosophy
     + Magnets by R. P. Feynman
