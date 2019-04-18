@@ -265,12 +265,12 @@ Opinionated list of resources facilitating model interpretability
       + Has some embeded links to notebooks
       + Uses Lucid library https://github.com/tensorflow/lucid
 
+    + iNNvestigate neural networks! by Maximilian Alber, Sebastian Lapuschkin, Philipp Seegerer, Miriam Hägele, Kristof T. Schütt, Grégoire Montavon, Wojciech Samek, Klaus-Robert Müller, Sven Dähne, Pieter-Jan Kindermans
+      + https://arxiv.org/pdf/1808.04260
+      + Code: https://github.com/albermax/innvestigate
+
     + YASENN: Explaining Neural Networks via Partitioning Activation Sequences by Yaroslav Zharov, Denis Korzhenkov, Pavel Shvechikov, Alexander Tuzhilin
       + https://arxiv.org/pdf/1811.02783
-
-    + iNNvestigate neural networks! by Maximilian Alber et al.
-      + Code: https://github.com/albermax/innvestigate
-      + https://arxiv.org/abs/1808.04260
 
 ** Extracting Interpretable Models From Complex Ones
 
