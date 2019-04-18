@@ -331,7 +331,8 @@ Opinionated list of resources facilitating model interpretability
      + Associated notebook on explaining regression predictions: https://github.com/ianozsvald/data_science_delivered/blob/master/ml_explain_regression_prediction.ipynb
 
    + G. Varoquaux, Understanding and diagnosing your machine-learning models (covers PDP and Lime among others)
-     + http://gael-varoquaux.info/interpreting_ml_tuto/
+     + Video: https://www.youtube.com/watch?v=kbj3llSbaVA
+     + Slides: http://gael-varoquaux.info/interpreting_ml_tuto/
 
 ** Venues
    + Interpretable ML Symposium (NIPS 2017) (contains links to *papers*, *slides* and *videos*)
