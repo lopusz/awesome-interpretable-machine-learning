@@ -161,6 +161,9 @@ Opinionated list of resources facilitating model interpretability
 
     + Explaining Explanations: An Approach to Evaluating Interpretability of Machine Learning by Leilani H. Gilpin, David Bau, Ben Z. Yuan, Ayesha Bajwa, Michael Specter, Lalana Kagal
       + https://arxiv.org/pdf/1806.00069
+      
+    + Interpretable machine learning: definitions, methods, and applications by William J. Murdoch, Chandan Singh, Karl Kumbier, Reza Abbasi-Asl, Bin Yu
+      + https://arxiv.org/abs/1901.04592
 
 *** Model Agnostic Explanations
     + How to Explain Individual Classification Decisions by David Baehrens, Timon Schroeter, Stefan Harmeling, Motoaki Kawanabe, Katja Hansen, Klaus-Robert Mueller
@@ -206,6 +209,11 @@ Opinionated list of resources facilitating model interpretability
       Models Explainable by Christoph Molnar
 
       + https://christophm.github.io/interpretable-ml-book/
+      
+    + Quantifying Interpretability of Arbitrary Machine Learning Models Through Functional Decomposition by Christoph Molnar, Giuseppe Casalicchio, Bernd Bischl
+      + https://arxiv.org/abs/1904.03867
+      
+      
 *** Model Specific Explanations - Neural Networks
     + Visualizing and Understanding Convolutional Networks by Matthew D Zeiler, Rob Fergus
       + https://arxiv.org/pdf/1311.2901
@@ -279,7 +287,11 @@ Opinionated list of resources facilitating model interpretability
 
     + YASENN: Explaining Neural Networks via Partitioning Activation Sequences by Yaroslav Zharov, Denis Korzhenkov, Pavel Shvechikov, Alexander Tuzhilin
       + https://arxiv.org/pdf/1811.02783
-
+      
+    + Hierarchical interpretations for neural network predictions by Chandan Singh, William J. Murdoch, Bin Yu
+      + https://arxiv.org/abs/1806.05337
+      + Code: https://github.com/csinva/hierarchical_dnn_interpretations
+      
 ** Extracting Interpretable Models From Complex Ones
 
    + Extracting Automata from Recurrent Neural Networks Using Queries and Counterexamples by Gail Weiss, Yoav Goldberg, Eran Yahav
@@ -287,6 +299,10 @@ Opinionated list of resources facilitating model interpretability
 
    + Distilling a Neural Network Into a Soft Decision Tree by Nicholas Frosst, Geoffrey Hinton
      + https://arxiv.org/pdf/1711.09784
+     
+   + Detecting Bias in Black-Box Models Using Transparent Model Distillation by Sarah Tan, Rich Caruana, Giles Hooker, Yin Lou
+     + http://www.aies-conference.com/2018/contents/papers/main/AIES_2018_paper_96.pdf
+     
 
 ** Model Visualization
    + Visualizing Statistical Models: Removing the blindfold
