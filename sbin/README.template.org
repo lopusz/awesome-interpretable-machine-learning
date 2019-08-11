@@ -375,6 +375,9 @@ Opinionated list of resources facilitating model interpretability
      + Code: https://github.com/christophM/iml
      + Publication: http://joss.theoj.org/papers/10.21105/joss.00786
 
+   + interpret - Python package package for training interpretable models and explaining blackbox systems by Microsoft
+     + Code: https://github.com/microsoft/interpret
+
    + lime - R package implementing LIME
      + https://github.com/thomasp85/lime
 
