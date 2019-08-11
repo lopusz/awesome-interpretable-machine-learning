@@ -141,6 +141,9 @@ Opinionated list of resources facilitating model interpretability
 
     + { "arxiv_id" : "1806.00069" }
 
+    + { "arxiv_id" : "1901.04592" }
+
+
 *** Model Agnostic Explanations
     + { "arxiv_id" : "0912.1128" }
 
@@ -173,10 +176,13 @@ Opinionated list of resources facilitating model interpretability
       + Docs: https://pbiecek.github.io/breakDown
       + Code: https://github.com/pbiecek/breakDown
 
+    + { "arxiv_id" : "1904.03867" }
+
     + A review book -  Interpretable Machine Learning. A Guide for Making Black Box
       Models Explainable by Christoph Molnar
 
       + https://christophm.github.io/interpretable-ml-book/
+
 *** Model Specific Explanations - Neural Networks
     + { "arxiv_id" : "1311.2901" }
 
@@ -235,11 +241,17 @@ Opinionated list of resources facilitating model interpretability
 
     + { "arxiv_id" : "1811.02783" }
 
+    + { "arxiv_id" : "1806.05337"}
+      + Code: https://github.com/csinva/hierarchical_dnn_interpretations
+
 ** Extracting Interpretable Models From Complex Ones
 
    + { "arxiv_id" : "1711.09576" }
 
    + { "arxiv_id" : "1711.09784" }
+
+   + { "sems_id" : "94770d1ea1192c05a6922712200689344a742d81" }
+     + http://www.aies-conference.com/2018/contents/papers/main/AIES_2018_paper_96.pdf
 
 ** Model Visualization
    + Visualizing Statistical Models: Removing the blindfold
