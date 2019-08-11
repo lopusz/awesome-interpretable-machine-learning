@@ -368,10 +368,15 @@ Opinionated list of resources facilitating model interpretability
      + 2016 (contains links to *papers*)
        + https://sites.google.com/site/2016whi/
        + Proceedings https://arxiv.org/html/1607.02531 or [[https://drive.google.com/open?id=0B9mGJ4F63iKGZWk0cXZraTNjRVU][here]]
-   + Analyzing and interpreting neural networks for NLP (BlackboxNLP), organised in conjunction with EMNLP 2018
-     + https://blackboxnlp.github.io/
-     + https://blackboxnlp.github.io/program.html
-     + [[https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=BlackboxNLP&terms-0-field=comments&terms-1-operator=OR&terms-1-term=Analyzing+interpreting+neural+networks+NLP&terms-1-field=comments&classification-physics_archives=all&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=200&order=-announced_date_first][List of papers]]
+   + Analyzing and interpreting neural networks for NLP (BlackboxNLP), organised in conjunction with EMNLP
+     + 2019 (links below may get prefixed by 2019 later on)
+       + https://blackboxnlp.github.io/
+       + https://blackboxnlp.github.io/program.html
+       + Papers should be available on arXiv
+     + 2018
+       + https://blackboxnlp.github.io/2018
+       + https://blackboxnlp.github.io/program.html
+       + [[https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=BlackboxNLP&terms-0-field=comments&terms-1-operator=OR&terms-1-term=Analyzing+interpreting+neural+networks+NLP&terms-1-field=comments&classification-physics_archives=all&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=200&order=-announced_date_first][List of papers]]
    + FAT/ML Fairness, Accountability, and Transparency in Machine Learning [[https://www.fatml.org/]]
      + 2018
        + https://www.fatml.org/schedule/2018
@@ -385,7 +390,12 @@ Opinionated list of resources facilitating model interpretability
        + https://www.fatml.org/schedule/2015
      + 2014
        + https://www.fatml.org/schedule/2014
-
+    + AAAI/ACM Annual Conferenceon AI, Ethics, and Society
+      + 2019 (links below may get prefixed by 2019 later on)
+        + http://www.aies-conference.com/accepted-papers/
+      + 2018
+        + http://www.aies-conference.com/2018/accepted-papers/
+        + http://www.aies-conference.com/2018/accepted-student-papers/
 ** Software
    Software related to papers is mentioned along with each publication.
    Here only standalone software is included.
