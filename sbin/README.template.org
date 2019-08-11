@@ -143,6 +143,9 @@ Opinionated list of resources facilitating model interpretability
 
     + { "arxiv_id" : "1901.04592" }
 
+    + On Explainable Machine Learning Misconceptions A More Human-Centered Machine Learning by Patrick Hall
+      + https://github.com/jphall663/xai_misconceptions/blob/master/xai_misconceptions.pdf
+      + https://github.com/jphall663/xai_misconceptions
 
 *** Model Agnostic Explanations
     + { "arxiv_id" : "0912.1128" }

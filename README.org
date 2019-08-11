@@ -165,6 +165,9 @@ Opinionated list of resources facilitating model interpretability
     + Interpretable machine learning: definitions, methods, and applications by W. James Murdoch, Chandan Singh, Karl Kumbier, Reza Abbasi-Asl, Bin Yu
       + https://arxiv.org/pdf/1901.04592
 
+    + On Explainable Machine Learning Misconceptions A More Human-Centered Machine Learning by Patrick Hall
+      + https://github.com/jphall663/xai_misconceptions/blob/master/xai_misconceptions.pdf
+      + https://github.com/jphall663/xai_misconceptions
 
 *** Model Agnostic Explanations
     + How to Explain Individual Classification Decisions by David Baehrens, Timon Schroeter, Stefan Harmeling, Motoaki Kawanabe, Katja Hansen, Klaus-Robert Mueller
