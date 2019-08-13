@@ -142,7 +142,6 @@ def clean_raw_metadata_arxiv(met_raw):
     def _normalize_arxiv_id(arxiv_id):
         return arxiv_id.replace('oai:arXiv.org:', '')
 
-
     met = {}
     title_raw = met_raw['GetRecord']['record']['metadata']['arXiv']['title']
     authors_raw = met_raw['GetRecord']['record']['metadata']['arXiv']['authors']['author']
@@ -152,7 +151,10 @@ def clean_raw_metadata_arxiv(met_raw):
     met['authors'] = _normalize_authors(authors_raw)
     arxiv_id_raw = met_raw['GetRecord']['record']['header']['identifier']
     met['arxiv_id'] = _normalize_arxiv_id(arxiv_id_raw)
+    created = met_raw['GetRecord']['record']['metadata']['arXiv']['created']
 
+    if created is not None:
+        met['year'] = created[0:4]
     try:
         doi = met_raw['GetRecord']['record']['metadata']['arXiv']['doi']
         met['doi'] = doi
@@ -186,6 +188,7 @@ def clean_raw_metadata_doi(met_raw):
     met['title'] = title[1:]
     met['authors'] = authors
     met['doi'] =  met_raw['message']['DOI']
+    met['year'] = str(met_raw['message']['created']['date-parts'][0][0])
     return met
 
 
@@ -218,11 +221,24 @@ def clean_raw_metadata_sems(met_raw):
         met['arxiv_id'] = met_raw['arxivId']
     if 'doi' in met_raw:
         met['doi'] = met_raw['doi']
+    if 'year' in met_raw:
+        met['year'] = str(met_raw['year'])
     return met
 
 
+def get_year(m):
+    return m.get('year', None)
+
+
 def convert_metadata_to_lines(m):
-    content = m['line_prefix'] + m['enumerator_char'] + ' ' + m['title']
+    year = get_year(m)
+
+    if year is not None:
+        year = ' (' + year + ') '
+    else:
+        year = ' '
+    content = m['line_prefix'] + m['enumerator_char'] + year \
+              + m['title']
     authors = ''
 
     for a in m['authors']:
@@ -297,6 +313,7 @@ def main(args):
                 print(lines, end='', flush=True)
             else:
                 print(line, end='', flush=True)
+
     if args.cache_fname is not None and n0_cache != len(cache):
         save_cache(args.cache_fname, cache)
 
