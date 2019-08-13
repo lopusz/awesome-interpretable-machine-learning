@@ -10,10 +10,6 @@ Opinionated list of resources facilitating model interpretability
      + (Regularized) linear regression
      + k-NN
 
-   + (2015) Interpretable classifiers using rules and Bayesian analysis: Building a better stroke prediction model by Benjamin Letham, Cynthia Rudin, Tyler H. McCormick, David Madigan
-     + https://arxiv.org/pdf/1511.01644
-     + https://dx.doi.org/10.1214/15-AOAS848
-
    + (2008) Predictive learning via rule ensembles by Jerome H. Friedman, Bogdan E. Popescu
      + https://dx.doi.org/10.1214/07-AOAS148
 
@@ -22,6 +18,10 @@ Opinionated list of resources facilitating model interpretability
      + http://www.kdd.org/exploration_files/V15-01-01-Freitas.pdf
      + Interesting discussion of interpretability for a few  classification  models
        (decision trees, classification rules, decision tables, nearest neighbors  and  Bayesian  network  classifier)
+
+   + (2015) Interpretable classifiers using rules and Bayesian analysis: Building a better stroke prediction model by Benjamin Letham, Cynthia Rudin, Tyler H. McCormick, David Madigan
+     + https://arxiv.org/pdf/1511.01644
+     + https://dx.doi.org/10.1214/15-AOAS848
 
    + (2017) Learning Explanatory Rules from Noisy Data by Richard Evans, Edward Grefenstette
      + https://arxiv.org/pdf/1711.04574
@@ -40,6 +40,12 @@ Opinionated list of resources facilitating model interpretability
          + https://notabug.org/mbq/rFerns
      + Linear regression (with a grain of salt)
 
+   + (2007) Bias in random forest variable importance measures: Illustrations, sources and a solution by Carolin Strobl, Anne-Laure Boulesteix, Achim Zeileis, Torsten Hothorn
+     + https://dx.doi.org/10.1186/1471-2105-8-25
+
+   + (2008) Conditional Variable Importance for Random Forests by Carolin Strobl, Anne-Laure Boulesteix, Thomas Kneib, Thomas Augustin, Achim Zeileis
+     + https://dx.doi.org/10.1186/1471-2105-9-307
+
    + (2018) Model Class Reliance: Variable Importance Measures for any Machine Learning Model Class, from the "Rashomon" Perspective by Aaron Fisher, Cynthia Rudin, Francesca Dominici
      + https://arxiv.org/pdf/1801.01489
      + https://github.com/aaronjfisher/mcr
@@ -49,12 +55,6 @@ Opinionated list of resources facilitating model interpretability
      + https://arxiv.org/pdf/1804.06620
      + https://github.com/giuseppec/featureImportance
      + Global and local (model agnostic) variable importance measure (based on Model Reliance)
-
-   + (2007) Bias in random forest variable importance measures: Illustrations, sources and a solution by Carolin Strobl, Anne-Laure Boulesteix, Achim Zeileis, Torsten Hothorn
-     + https://dx.doi.org/10.1186/1471-2105-8-25
-
-   + (2008) Conditional Variable Importance for Random Forests by Carolin Strobl, Anne-Laure Boulesteix, Thomas Kneib, Thomas Augustin, Achim Zeileis
-     + https://dx.doi.org/10.1186/1471-2105-9-307
 
    + Very good blog post describing deficiencies of random forest feature importance and the permutation importance
      + http://explained.ai/rf-importance/index.html
@@ -74,12 +74,6 @@ Opinionated list of resources facilitating model interpretability
 
    + Filter Methods
 
-     + (2017) Relief-Based Feature Selection: Introduction and Review by Ryan J. Urbanowicz, Melissa Meeker, William LaCava, Randal S. Olson, Jason H. Moore
-       + https://arxiv.org/pdf/1711.08421
-
-     + (2017) Benchmarking Relief-Based Feature Selection Methods for Bioinformatics Data Mining by Ryan J. Urbanowicz, Randal S. Olson, Peter Schmitt, Melissa Meeker, Jason H. Moore
-       + https://arxiv.org/pdf/1711.08477
-
      + (2006) On the Use of Variable Complementarity for Feature Selection in Cancer Classification by Patrick Meyer, Gianluca Bontempi
        + https://dx.doi.org/10.1007/11732242_9
        + https://pdfs.semanticscholar.org/d72f/f5063520ce4542d6d9b9e6a4f12aafab6091.pdf
@@ -92,6 +86,12 @@ Opinionated list of resources facilitating model interpretability
 
      + (2012) Feature selection via joint likelihood by Adam Pocock
        + http://www.cs.man.ac.uk/~gbrown/publications/pocockPhDthesis.pdf
+
+     + (2017) Relief-Based Feature Selection: Introduction and Review by Ryan J. Urbanowicz, Melissa Meeker, William LaCava, Randal S. Olson, Jason H. Moore
+       + https://arxiv.org/pdf/1711.08421
+
+     + (2017) Benchmarking Relief-Based Feature Selection Methods for Bioinformatics Data Mining by Ryan J. Urbanowicz, Randal S. Olson, Peter Schmitt, Melissa Meeker, Jason H. Moore
+       + https://arxiv.org/pdf/1711.08477
 
    + Wrapper methods
 
@@ -106,16 +106,16 @@ Opinionated list of resources facilitating model interpretability
 
    + General
 
-     + Special issue of JMLR of feature selection - oldish (2003)
+     + (1994) Irrelevant Features and the Subset Selection Problem by George John, Ron Kohavi, Karl Pfleger
+       + https://pdfs.semanticscholar.org/a83b/ddb34618cc68f1014ca12eef7f537825d104.pdf
+       + Classic paper discussing weakly relevant features, irrelevant features, strongly relevant features
+
+     + (2003) Special issue of JMLR of feature selection - oldish (2003)
        + http://www.jmlr.org/papers/special/feature03.html
 
      + (2004) Result Analysis of the NIPS 2003 Feature Selection Challenge by Isabelle Guyon, Steve Gunn, Asa Ben-Hur, Gideon Dror
        + Paper: https://papers.nips.cc/paper/2728-result-analysis-of-the-nips-2003-feature-selection-challenge.pdf
        + Website http://clopinet.com/isabelle/Projects/NIPS2003/
-
-     + (1994) Irrelevant Features and the Subset Selection Problem by George John, Ron Kohavi, Karl Pfleger
-       + https://pdfs.semanticscholar.org/a83b/ddb34618cc68f1014ca12eef7f537825d104.pdf
-       + Classic paper discussing weakly relevant features, irrelevant features, strongly relevant features
 
      + (2007) Consistent Feature Selection for Pattern Recognition in Polynomial Time by Roland Nilsson, José Peña, Johan Björkegren, Jesper Tegnér
        + http://www.jmlr.org/papers/volume8/nilsson07a/nilsson07a.pdf
@@ -127,14 +127,17 @@ Opinionated list of resources facilitating model interpretability
      + https://bookdown.org/max/FES/
      + https://github.com/topepo/FES
 
-  + Feature Engineering presentation by H. J. van Veen
-    + Slightly off-topicm but very interesting deck of slides
-    + Slides: https://www.slideshare.net/HJvanVeen/feature-engineering-72376750
-
+   + Feature Engineering presentation by H. J. van Veen
+     + Slightly off-topicm but very interesting deck of slides
+     + Slides: https://www.slideshare.net/HJvanVeen/feature-engineering-72376750
+       
 ** Model Explanations
 *** Philosophy
     + Magnets by R. P. Feynman
       https://www.youtube.com/watch?v=wMFPe-DwULM
+
+    + (2002) Looking Inside the Black Box, presentation of Leo Breiman
+      + https://www.stat.berkeley.edu/users/breiman/wald2002-2.pdf
 
     + (2011) To Explain or to Predict? by Galit Shmueli
       + https://arxiv.org/pdf/1101.0891
@@ -144,18 +147,15 @@ Opinionated list of resources facilitating model interpretability
       + https://arxiv.org/pdf/1606.03490
       + https://www.youtube.com/watch?v=mvzBQci04qA
 
-    + (2017) The Promise and Peril of Human Evaluation for Model Interpretability by Bernease Herman
-      + https://arxiv.org/pdf/1711.07414
-
     + (2017) Towards A Rigorous Science of Interpretable Machine Learning by Finale Doshi-Velez, Been Kim
       + https://arxiv.org/pdf/1702.08608
 
-    + [[http://bayes.cs.ucla.edu/WHY/why-intro.pdf][The Book of Why: The New Science of Cause and Effect]] by Judea Pearl
+    + (2017) The Promise and Peril of Human Evaluation for Model Interpretability by Bernease Herman
+      + https://arxiv.org/pdf/1711.07414
 
-    + Looking Inside the Black Box, presentation of Leo Breiman
-      + https://www.stat.berkeley.edu/users/breiman/wald2002-2.pdf
+    + (2018) [[http://bayes.cs.ucla.edu/WHY/why-intro.pdf][The Book of Why: The New Science of Cause and Effect]] by Judea Pearl
 
-    + Please Stop Doing the "Explainable" ML by Cynthia Rudin
+    + (2018) Please Stop Doing the "Explainable" ML by Cynthia Rudin
       + Video (starts 17:30, lasts 10 min): https://zoom.us/recording/play/0y-iI9HamgyDzzP2k_jiTu6jB7JgVVXnjWZKDMbnyRTn3FsxTDZy6Wkrj3_ekx4J
       + Linked at: https://users.cs.duke.edu/~cynthia/mediatalks.html
 
@@ -165,7 +165,7 @@ Opinionated list of resources facilitating model interpretability
     + (2019) Interpretable machine learning: definitions, methods, and applications by W. James Murdoch, Chandan Singh, Karl Kumbier, Reza Abbasi-Asl, Bin Yu
       + https://arxiv.org/pdf/1901.04592
 
-    + On Explainable Machine Learning Misconceptions A More Human-Centered Machine Learning by Patrick Hall
+    + (2019) On Explainable Machine Learning Misconceptions A More Human-Centered Machine Learning by Patrick Hall
       + https://github.com/jphall663/xai_misconceptions/blob/master/xai_misconceptions.pdf
       + https://github.com/jphall663/xai_misconceptions
 
@@ -209,13 +209,13 @@ Opinionated list of resources facilitating model interpretability
       + Docs: https://pbiecek.github.io/breakDown
       + Code: https://github.com/pbiecek/breakDown
 
-    + (2019) Quantifying Interpretability of Arbitrary Machine Learning Models Through Functional Decomposition by Christoph Molnar, Giuseppe Casalicchio, Bernd Bischl
-      + https://arxiv.org/pdf/1904.03867
-
-    + A review book -  Interpretable Machine Learning. A Guide for Making Black Box
+    + (2018) A review book -  Interpretable Machine Learning. A Guide for Making Black Box
       Models Explainable by Christoph Molnar
 
       + https://christophm.github.io/interpretable-ml-book/
+
+    + (2019) Quantifying Interpretability of Arbitrary Machine Learning Models Through Functional Decomposition by Christoph Molnar, Giuseppe Casalicchio, Bernd Bischl
+      + https://arxiv.org/pdf/1904.03867
 
 *** Model Specific Explanations - Neural Networks
     + (2013) Visualizing and Understanding Convolutional Networks by Matthew D Zeiler, Rob Fergus
@@ -279,10 +279,14 @@ Opinionated list of resources facilitating model interpretability
     + Classifier-agnostic Saliency Map Extraction
       + Code: https://github.com/kondiz/casme
 
-    + The Building Blocks of Interpretability
+    + (2018) The Building Blocks of Interpretability
       + https://distill.pub/2018/building-blocks
       + Has some embeded links to notebooks
       + Uses Lucid library https://github.com/tensorflow/lucid
+
+    + (2018) Hierarchical interpretations for neural network predictions by Chandan Singh, W. James Murdoch, Bin Yu
+      + https://arxiv.org/pdf/1806.05337
+      + Code: https://github.com/csinva/hierarchical_dnn_interpretations
 
     + (2018) iNNvestigate neural networks! by Maximilian Alber, Sebastian Lapuschkin, Philipp Seegerer, Miriam Hägele, Kristof T. Schütt, Grégoire Montavon, Wojciech Samek, Klaus-Robert Müller, Sven Dähne, Pieter-Jan Kindermans
       + https://arxiv.org/pdf/1808.04260
@@ -290,10 +294,6 @@ Opinionated list of resources facilitating model interpretability
 
     + (2018) YASENN: Explaining Neural Networks via Partitioning Activation Sequences by Yaroslav Zharov, Denis Korzhenkov, Pavel Shvechikov, Alexander Tuzhilin
       + https://arxiv.org/pdf/1811.02783
-
-    + (2018) Hierarchical interpretations for neural network predictions by Chandan Singh, W. James Murdoch, Bin Yu
-      + https://arxiv.org/pdf/1806.05337
-      + Code: https://github.com/csinva/hierarchical_dnn_interpretations
 
 ** Extracting Interpretable Models From Complex Ones
 

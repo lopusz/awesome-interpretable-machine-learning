@@ -10,14 +10,14 @@ Opinionated list of resources facilitating model interpretability
      + (Regularized) linear regression
      + k-NN
 
-   + { "arxiv_id": "1511.01644" }
-
    + { "doi" : "10.1214/07-AOAS148" }
 
    + { "doi" : "10.1145/2594473.2594475" }
      + http://www.kdd.org/exploration_files/V15-01-01-Freitas.pdf
      + Interesting discussion of interpretability for a few  classification  models
        (decision trees, classification rules, decision tables, nearest neighbors  and  Bayesian  network  classifier)
+
+   + { "arxiv_id": "1511.01644" }
 
    + { "arxiv_id" : "1711.04574" }
 
@@ -33,6 +33,10 @@ Opinionated list of resources facilitating model interpretability
          + https://notabug.org/mbq/rFerns
      + Linear regression (with a grain of salt)
 
+   + { "doi" : "10.1186/1471-2105-8-25", "title" : "Bias in random forest variable importance measures: Illustrations, sources and a solution" }
+
+   + { "doi" : "10.1186/1471-2105-9-307" }
+
    + { "arxiv_id" : "1801.01489" }
      + https://github.com/aaronjfisher/mcr
      + Universal (model agnostic) variable importance measure
@@ -40,10 +44,6 @@ Opinionated list of resources facilitating model interpretability
    + { "arxiv_id" : "1804.06620" }
      + https://github.com/giuseppec/featureImportance
      + Global and local (model agnostic) variable importance measure (based on Model Reliance)
-
-   + { "doi" : "10.1186/1471-2105-8-25", "title" : "Bias in random forest variable importance measures: Illustrations, sources and a solution" }
-
-   + { "doi" : "10.1186/1471-2105-9-307" }
 
    + Very good blog post describing deficiencies of random forest feature importance and the permutation importance
      + http://explained.ai/rf-importance/index.html
@@ -63,10 +63,6 @@ Opinionated list of resources facilitating model interpretability
 
    + Filter Methods
 
-     + { "arxiv_id" : "1711.08421" }
-
-     + { "arxiv_id" : "1711.08477" }
-
      + { "sems_id" : "d72ff5063520ce4542d6d9b9e6a4f12aafab6091" }
        + https://pdfs.semanticscholar.org/d72f/f5063520ce4542d6d9b9e6a4f12aafab6091.pdf
        + Introduces information theoretic methods - double input symmetrical relevance (DISR)
@@ -78,6 +74,10 @@ Opinionated list of resources facilitating model interpretability
 
      + { "sems_id" : "5a2f4bdab1499314a24e3a8d3c88dbfc6f6ecaf6" }
        + http://www.cs.man.ac.uk/~gbrown/publications/pocockPhDthesis.pdf
+
+     + { "arxiv_id" : "1711.08421" }
+
+     + { "arxiv_id" : "1711.08477" }
 
    + Wrapper methods
 
@@ -91,16 +91,16 @@ Opinionated list of resources facilitating model interpretability
 
    + General
 
-     + Special issue of JMLR of feature selection - oldish (2003)
+     + { "sems_id" : "a93a1d9c9a1f46dc5aaadabedf906823d5043173" }
+       + https://pdfs.semanticscholar.org/a83b/ddb34618cc68f1014ca12eef7f537825d104.pdf
+       + Classic paper discussing weakly relevant features, irrelevant features, strongly relevant features
+
+     + (2003) Special issue of JMLR of feature selection - oldish (2003)
        + http://www.jmlr.org/papers/special/feature03.html
 
      + { "sems_id" : "b14dea76cafede81c6ff5478d4221fce3aec9284" }
        + Paper: https://papers.nips.cc/paper/2728-result-analysis-of-the-nips-2003-feature-selection-challenge.pdf
        + Website http://clopinet.com/isabelle/Projects/NIPS2003/
-
-     + { "sems_id" : "a93a1d9c9a1f46dc5aaadabedf906823d5043173" }
-       + https://pdfs.semanticscholar.org/a83b/ddb34618cc68f1014ca12eef7f537825d104.pdf
-       + Classic paper discussing weakly relevant features, irrelevant features, strongly relevant features
 
      + { "sems_id" : "00bc2153cd21001860e43758273945110f0ae40d" }
        + http://www.jmlr.org/papers/volume8/nilsson07a/nilsson07a.pdf
@@ -112,30 +112,30 @@ Opinionated list of resources facilitating model interpretability
      + https://bookdown.org/max/FES/
      + https://github.com/topepo/FES
 
-  + Feature Engineering presentation by H. J. van Veen
-    + Slightly off-topicm but very interesting deck of slides
-    + Slides: https://www.slideshare.net/HJvanVeen/feature-engineering-72376750
-
+   + Feature Engineering presentation by H. J. van Veen
+     + Slightly off-topicm but very interesting deck of slides
+     + Slides: https://www.slideshare.net/HJvanVeen/feature-engineering-72376750
+       
 ** Model Explanations
 *** Philosophy
     + Magnets by R. P. Feynman
       https://www.youtube.com/watch?v=wMFPe-DwULM
+
+    + (2002) Looking Inside the Black Box, presentation of Leo Breiman
+      + https://www.stat.berkeley.edu/users/breiman/wald2002-2.pdf
 
     + { "arxiv_id" : "1101.0891" }
 
     + { "arxiv_id" : "1606.03490" }
       + https://www.youtube.com/watch?v=mvzBQci04qA
 
-    + { "arxiv_id" : "1711.07414" }
-
     + { "arxiv_id" : "1702.08608" }
 
-    + [[http://bayes.cs.ucla.edu/WHY/why-intro.pdf][The Book of Why: The New Science of Cause and Effect]] by Judea Pearl
+    + { "arxiv_id" : "1711.07414" }
 
-    + Looking Inside the Black Box, presentation of Leo Breiman
-      + https://www.stat.berkeley.edu/users/breiman/wald2002-2.pdf
+    + (2018) [[http://bayes.cs.ucla.edu/WHY/why-intro.pdf][The Book of Why: The New Science of Cause and Effect]] by Judea Pearl
 
-    + Please Stop Doing the "Explainable" ML by Cynthia Rudin
+    + (2018) Please Stop Doing the "Explainable" ML by Cynthia Rudin
       + Video (starts 17:30, lasts 10 min): https://zoom.us/recording/play/0y-iI9HamgyDzzP2k_jiTu6jB7JgVVXnjWZKDMbnyRTn3FsxTDZy6Wkrj3_ekx4J
       + Linked at: https://users.cs.duke.edu/~cynthia/mediatalks.html
 
@@ -143,7 +143,7 @@ Opinionated list of resources facilitating model interpretability
 
     + { "arxiv_id" : "1901.04592" }
 
-    + On Explainable Machine Learning Misconceptions A More Human-Centered Machine Learning by Patrick Hall
+    + (2019) On Explainable Machine Learning Misconceptions A More Human-Centered Machine Learning by Patrick Hall
       + https://github.com/jphall663/xai_misconceptions/blob/master/xai_misconceptions.pdf
       + https://github.com/jphall663/xai_misconceptions
 
@@ -179,12 +179,12 @@ Opinionated list of resources facilitating model interpretability
       + Docs: https://pbiecek.github.io/breakDown
       + Code: https://github.com/pbiecek/breakDown
 
-    + { "arxiv_id" : "1904.03867" }
-
-    + A review book -  Interpretable Machine Learning. A Guide for Making Black Box
+    + (2018) A review book -  Interpretable Machine Learning. A Guide for Making Black Box
       Models Explainable by Christoph Molnar
 
       + https://christophm.github.io/interpretable-ml-book/
+
+    + { "arxiv_id" : "1904.03867" }
 
 *** Model Specific Explanations - Neural Networks
     + { "arxiv_id" : "1311.2901" }
@@ -234,18 +234,18 @@ Opinionated list of resources facilitating model interpretability
     + Classifier-agnostic Saliency Map Extraction
       + Code: https://github.com/kondiz/casme
 
-    + The Building Blocks of Interpretability
+    + (2018) The Building Blocks of Interpretability
       + https://distill.pub/2018/building-blocks
       + Has some embeded links to notebooks
       + Uses Lucid library https://github.com/tensorflow/lucid
+
+    + { "arxiv_id" : "1806.05337"}
+      + Code: https://github.com/csinva/hierarchical_dnn_interpretations
 
     + { "arxiv_id" : "1808.04260" }
       + Code: https://github.com/albermax/innvestigate
 
     + { "arxiv_id" : "1811.02783" }
-
-    + { "arxiv_id" : "1806.05337"}
-      + Code: https://github.com/csinva/hierarchical_dnn_interpretations
 
 ** Extracting Interpretable Models From Complex Ones
 
