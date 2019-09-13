@@ -169,6 +169,9 @@ Opinionated list of resources facilitating model interpretability
       + https://github.com/jphall663/xai_misconceptions/blob/master/xai_misconceptions.pdf
       + https://github.com/jphall663/xai_misconceptions
 
+    + (2019) An Introduction to Machine Learning Interpretability. An Applied Perspective on Fairness, Accountability, Transparency, and Explainable AI by Patrick Hall and Navdeep Gill
+      + https://www.h2o.ai/wp-content/uploads/2019/08/An-Introduction-to-Machine-Learning-Interpretability-Second-Edition.pdf
+
 *** Model Agnostic Explanations
     + (2009) How to Explain Individual Classification Decisions by David Baehrens, Timon Schroeter, Stefan Harmeling, Motoaki Kawanabe, Katja Hansen, Klaus-Robert Mueller
       + https://arxiv.org/pdf/0912.1128
