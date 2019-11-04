@@ -51,6 +51,10 @@ Opinionated list of resources facilitating model interpretability
      + https://github.com/aaronjfisher/mcr
      + Universal (model agnostic) variable importance measure
 
+   + (2019) Please Stop Permuting Features: An Explanation and Alternatives by Giles Hooker, Lucas Mentch
+     + https://arxiv.org/pdf/1905.03151
+     + Paper advocating against feature permutation for importance
+
    + (2018) Visualizing the Feature Importance for Black Box Models by Giuseppe Casalicchio, Christoph Molnar, Bernd Bischl
      + https://arxiv.org/pdf/1804.06620
      + https://github.com/giuseppec/featureImportance

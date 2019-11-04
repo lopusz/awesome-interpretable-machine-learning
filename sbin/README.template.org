@@ -41,6 +41,9 @@ Opinionated list of resources facilitating model interpretability
      + https://github.com/aaronjfisher/mcr
      + Universal (model agnostic) variable importance measure
 
+   + { "arxiv_id": "1905.03151" }
+     + Paper advocating against feature permutation for importance
+
    + { "arxiv_id" : "1804.06620" }
      + https://github.com/giuseppec/featureImportance
      + Global and local (model agnostic) variable importance measure (based on Model Reliance)
