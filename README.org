@@ -298,6 +298,9 @@ Opinionated list of resources facilitating model interpretability
     + (2018) YASENN: Explaining Neural Networks via Partitioning Activation Sequences by Yaroslav Zharov, Denis Korzhenkov, Pavel Shvechikov, Alexander Tuzhilin
       + https://arxiv.org/pdf/1811.02783
 
+    + (2019) Attention is not Explanation by Sarthak Jain, Byron C. Wallace
+      + https://arxiv.org/pdf/1902.10186
+
 ** Extracting Interpretable Models From Complex Ones
 
    + (2017) Extracting Automata from Recurrent Neural Networks Using Queries and Counterexamples by Gail Weiss, Yoav Goldberg, Eran Yahav
