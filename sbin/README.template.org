@@ -252,6 +252,8 @@ Opinionated list of resources facilitating model interpretability
 
     + { "arxiv_id" : "1902.10186" }
 
+    + { "arxiv_id": "1909.11218" }
+
 ** Extracting Interpretable Models From Complex Ones
 
    + { "arxiv_id" : "1711.09576" }

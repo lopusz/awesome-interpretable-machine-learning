@@ -301,6 +301,9 @@ Opinionated list of resources facilitating model interpretability
     + (2019) Attention is not Explanation by Sarthak Jain, Byron C. Wallace
       + https://arxiv.org/pdf/1902.10186
 
+    + (2019) Attention Interpretability Across NLP Tasks by Shikhar Vashishth, Shyam Upadhyay, Gaurav Singh Tomar, Manaal Faruqui
+      + https://arxiv.org/pdf/1909.11218
+
 ** Extracting Interpretable Models From Complex Ones
 
    + (2017) Extracting Automata from Recurrent Neural Networks Using Queries and Counterexamples by Gail Weiss, Yoav Goldberg, Eran Yahav
