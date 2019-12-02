@@ -189,7 +189,7 @@ Opinionated list of resources facilitating model interpretability
       Models Explainable by Christoph Molnar
 
       + https://christophm.github.io/interpretable-ml-book/
-
+    + { "arxiv_id" : "1811.10154" }
     + { "arxiv_id" : "1904.03867" }
 
 *** Model Specific Explanations - Neural Networks

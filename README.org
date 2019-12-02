@@ -220,7 +220,8 @@ Opinionated list of resources facilitating model interpretability
       Models Explainable by Christoph Molnar
 
       + https://christophm.github.io/interpretable-ml-book/
-
+    + (2018) Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead by Cynthia Rudin
+      + https://arxiv.org/pdf/1811.10154
     + (2019) Quantifying Interpretability of Arbitrary Machine Learning Models Through Functional Decomposition by Christoph Molnar, Giuseppe Casalicchio, Bernd Bischl
       + https://arxiv.org/pdf/1904.03867
 
