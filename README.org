@@ -26,6 +26,10 @@ Opinionated list of resources facilitating model interpretability
    + (2017) Learning Explanatory Rules from Noisy Data by Richard Evans, Edward Grefenstette
      + https://arxiv.org/pdf/1711.04574
 
+   + (2020) Transparent Classification with Multilayer Logical Perceptrons and Random Binarization by Zhuo Wang, Wei Zhang, Ning Liu, Jianyong Wang
+     + https://arxiv.org/pdf/1912.04695.pdf
+     + https://github.com/12wang3/mllp
+
 ** Feature Importance
    + Models offering feature importance measures
      + Random forest
