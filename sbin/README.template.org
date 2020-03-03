@@ -21,6 +21,9 @@ Opinionated list of resources facilitating model interpretability
 
    + { "arxiv_id" : "1711.04574" }
 
+   + { "arxiv_id" : "1912.04695" }
+     + Code: https://github.com/12wang3/mllp
+
 ** Feature Importance
    + Models offering feature importance measures
      + Random forest
