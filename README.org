@@ -292,8 +292,8 @@ Opinionated list of resources facilitating model interpretability
     + (2018) A Benchmark for Interpretability Methods in Deep Neural Networks by Sara Hooker, Dumitru Erhan, Pieter-Jan Kindermans, Been Kim
       + https://arxiv.org/pdf/1806.10758
 
-    + (2018) The Building Blocks of Interpretability
-      + https://distill.pub/2018/building-blocks
+    + (2018) The Building Blocks of Interpretability by Chris Olah, Arvind Satyanarayan, Ian Johnson, Shan Carter, Ludwig Schubert, Katherine Ye, Alexander Mordvintsev
+      + https://dx.doi.org/10.23915/distill.00010
       + Has some embeded links to notebooks
       + Uses Lucid library https://github.com/tensorflow/lucid
 
