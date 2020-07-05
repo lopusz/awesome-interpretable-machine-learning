@@ -314,6 +314,10 @@ Opinionated list of resources facilitating model interpretability
     + (2019) Attention Interpretability Across NLP Tasks by Shikhar Vashishth, Shyam Upadhyay, Gaurav Singh Tomar, Manaal Faruqui
       + https://arxiv.org/pdf/1909.11218
 
+    + (2020) GRACE: Generating Concise and Informative Contrastive Sample to Explain Neural Network Model's Prediction by Thai Le, Suhang Wang, Dongwon Lee
+      + https://arxiv.org/abs/1911.02042
+      + Code: https://github.com/lethaiq/GRACE_KDD20
+
 ** Extracting Interpretable Models From Complex Ones
 
    + (2017) Extracting Automata from Recurrent Neural Networks Using Queries and Counterexamples by Gail Weiss, Yoav Goldberg, Eran Yahav
