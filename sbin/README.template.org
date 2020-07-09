@@ -259,6 +259,9 @@ Opinionated list of resources facilitating model interpretability
 
     + { "arxiv_id": "1909.11218" }
 
+    + { "arxiv_id": "1911.02042" }
+      + Code: https://github.com/lethaiq/GRACE_KDD20
+
 ** Extracting Interpretable Models From Complex Ones
 
    + { "arxiv_id" : "1711.09576" }
