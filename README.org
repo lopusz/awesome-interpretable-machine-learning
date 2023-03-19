@@ -29,6 +29,11 @@ Opinionated list of resources facilitating model interpretability
    + (2019) Transparent Classification with Multilayer Logical Perceptrons and Random Binarization by Zhuo Wang, Wei Zhang, Ning Liu, Jianyong Wang
      + https://arxiv.org/pdf/1912.04695
      + Code: https://github.com/12wang3/mllp
+   
+   + (2023) Bort: Towards Explainable Neural Networks with Bounded Orthogonal Constraint by Borui Zhang, Wenzhao Zheng, Jie Zhou, Jiwen Lu
+     + https://arxiv.org/abs/2212.09062
+     + Code: https://github.com/zbr17/Bort
+     + Proposes an optimizer named Bort for improving explainability for DNN with boundedness and orthogonality constraints
 
 ** Feature Importance
    + Models offering feature importance measures
